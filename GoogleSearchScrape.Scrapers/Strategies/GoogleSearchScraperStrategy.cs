@@ -18,6 +18,9 @@ namespace GoogleSearchScrape.Scrapers.Strategies
         /// </summary>
         private readonly string GoogleSearchTitlePath = $"{GoogleSearchXPath}/div/div/a";
 
+        private readonly string FirstResultPath = $"{GoogleSearchXPath}/div/div/div/a";
+        private readonly string FirstResultPathTitle = $"{GoogleSearchXPath}/div/div/div/*/h3";
+
         /// <summary>
         /// Google search URL with {0} being the <see cref="ScrapeRequest.SearchTerm"/> 
         /// and {1} being <see cref="ScrapeRequest.MaxResults"/> 
@@ -49,15 +52,28 @@ namespace GoogleSearchScrape.Scrapers.Strategies
         /// <returns></returns>
         protected override List<ScrapeResult> Get(ScrapeRequest request, HtmlDocument doc)
         {
-            var htmlBlock = doc.DocumentNode.SelectNodes(GoogleSearchTitlePath);
-            var links = htmlBlock.Select((aElement, index) => new ScrapeResult
+            var firstResult = doc.DocumentNode.SelectSingleNode(FirstResultPath);
+            var firstResultText = doc.DocumentNode.SelectSingleNode(FirstResultPathTitle).InnerText;
+            var firstScrapeResult = new ScrapeResult
             {
-                Title = aElement.InnerText,
-                Url = aElement.GetAttributeValue<string>("href", string.Empty),
+                Title = firstResultText,
+                Url = firstResult.GetAttributeValue<string>("href", string.Empty),
                 Created = DateTimeOffset.UtcNow,
-                Index = index + 1
-            });
-            return links.ToList();
+                Index = 1
+            };
+
+            var htmlBlock = doc.DocumentNode.SelectNodes(GoogleSearchTitlePath);
+            var links = htmlBlock
+                .Select((aElement, index) => new ScrapeResult
+                {
+                    Title = aElement.InnerText,
+                    Url = aElement.GetAttributeValue<string>("href", string.Empty),
+                    Created = DateTimeOffset.UtcNow,
+                    Index = index + 2
+                });
+            var resultList = links.ToList();
+            resultList.Add(firstScrapeResult);
+            return resultList;
         }
     }
 }
