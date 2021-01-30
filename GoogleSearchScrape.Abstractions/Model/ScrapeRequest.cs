@@ -37,6 +37,7 @@ namespace GoogleSearchScrape.Abstractions.Model
         /// The target URL.
         /// </value>
         [Required]
+        [StringLength(500, MinimumLength = 4)]
         public string TargetUrl { get; set; }
 
         /// <summary>
