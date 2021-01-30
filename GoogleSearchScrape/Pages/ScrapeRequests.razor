@@ -16,7 +16,7 @@
                 @{
                     var ctx = context as TimedScrapeRequest;
                 }
-                <Syncfusion.Blazor.DropDowns.SfComboBox DataSource="StrategyNames" FloatLabelType="FloatLabelType.Always" @bind-Value="@ctx.StrategyName" Placeholder="Strategy"></Syncfusion.Blazor.DropDowns.SfComboBox>
+                <Syncfusion.Blazor.DropDowns.SfComboBox DataSource="StrategyNames" AllowCustom="false" FloatLabelType="FloatLabelType.Always" @bind-Value="@ctx.StrategyName" Placeholder="Strategy"></Syncfusion.Blazor.DropDowns.SfComboBox>
             </EditTemplate>
         </GridColumn>
         <GridColumn Field=@nameof(TimedScrapeRequest.TargetUrl) HeaderText="Target URL" Type="ColumnType.String" AutoFit="true"></GridColumn>
