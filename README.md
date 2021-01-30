@@ -30,7 +30,7 @@ dotnet run --project GoogleSearchScrape
 1. Add a scrape request on the page with any specified strategy 'https://localhost:5001/requests'. The *search term* is what will be used when making the reqeust to the search engine, the max results will limit the results of this request. The *target URL* will determine the results saved by the application, if the URL returned by the search scraper **CONTAINS** the target URL (it doesn't need to be a URL) then the application will save the result, if not it will be discarded. The *repeat time* will determine when a request is scraped again.
 ![ImageTwo](https://i.imgur.com/0rwJDxI.png)
 
-2. Go to the dashboard and wait for the graph to update 'https://localhost:5001/'
+2. Go to the dashboard and wait for the graph to update 'https://localhost:5001/' The Y Axis denotes the rank on the search engine so the lower it is the better.
 ![ImageThree](https://i.imgur.com/UqVszq5.png)
 
 ## Contributing
