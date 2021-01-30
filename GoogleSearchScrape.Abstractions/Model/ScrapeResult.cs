@@ -13,6 +13,7 @@ namespace GoogleSearchScrape.Abstractions.Model
         /// <value>
         /// The title.
         /// </value>
+        [Required]
         public string Title { get; set; }
 
         /// <summary>
@@ -22,6 +23,7 @@ namespace GoogleSearchScrape.Abstractions.Model
         /// The URL.
         /// </value>
         [StringLength(2000)]
+        [Required]
         public string Url { get; set; }
 
         /// <summary>
