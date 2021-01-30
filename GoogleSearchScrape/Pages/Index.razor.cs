@@ -175,7 +175,7 @@ namespace GoogleSearchScrape.Pages
                     Title = new OptionsTitle
                     {
                         Display = true,
-                        Text = "URL Ranking overtime"
+                        Text = "URL Ranking overtime (The lower the better)"
                     },
                     Tooltips = new Tooltips
                     {
