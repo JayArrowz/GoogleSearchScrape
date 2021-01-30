@@ -26,6 +26,13 @@ To Run in Terminal:
 dotnet run --project GoogleSearchScrape
 ```
 
+## How To Use
+1. Add a scrape request on the page with any specified strategy 'https://localhost:5001/requests'. The *search term* is what will be used when making the reqeust to the search engine, the max results will limit the results of this request. The *target URL* will determine the results saved by the application, if the URL returned by the search scraper **CONTAINS** the target URL (it doesn't need to be a URL) then the application will save the result, if not it will be discarded. The *repeat time* will determine when a request is scraped again.
+![ImageTwo](https://i.imgur.com/0rwJDxI.png)
+
+2. Go to the dashboard and wait for the graph to update 'https://localhost:5001/'
+![ImageThree](https://i.imgur.com/UqVszq5.png)
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
