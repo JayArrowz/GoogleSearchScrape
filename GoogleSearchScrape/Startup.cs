@@ -69,6 +69,10 @@ namespace GoogleSearchScrape
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            var syncfusionLicense = Config["SyncfusionLicense"];            
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(syncfusionLicense);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
