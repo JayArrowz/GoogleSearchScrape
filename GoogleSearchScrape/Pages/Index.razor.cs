@@ -129,14 +129,12 @@ namespace GoogleSearchScrape.Pages
                 var key = keys[i];
                 IDataset<TimePoint> dataSet = !createNew ? 
                     (_dataSets.FirstOrDefault(t => t?.Name == key)?.DataSet) :
-                    new LineDataset<TimePoint>()
-                    {
-                        Label = key,
-                        Fill = FillingMode.Disabled,
-                        SteppedLine = SteppedLine.True,
-                        BorderColor = string.Format("#{0:x}", _random.Next(0x1000000) & 0x7F7F7F) //Random dark color
-                    };
-
+                    NewLineDataset(key);
+                var newDataSet = createNew || dataSet == null;
+                if (!createNew && newDataSet)
+                {
+                    dataSet = NewLineDataset(key);
+                }
                 foreach (var month in StrategyResultsMap[key])
                 {
                     var timePoint = new TimePoint(month.Created, month.Index);
@@ -147,13 +145,24 @@ namespace GoogleSearchScrape.Pages
                     }
                 }
 
-                if (createNew)
+                if (newDataSet)
                 {
                     var dataSetToAdd = (key, dataSet);
                     _dataSets.Add(dataSetToAdd);
                     _config.Data.Datasets.Add(dataSet);
                 }
             }
+        }
+
+        private IDataset<TimePoint> NewLineDataset(string key)
+        {
+            return new LineDataset<TimePoint>()
+            {
+                Label = key,
+                Fill = FillingMode.Disabled,
+                SteppedLine = SteppedLine.True,
+                BorderColor = string.Format("#{0:x}", _random.Next(0x1000000) & 0x7F7F7F) //Random dark color
+            };
         }
 
         private void CreateChartConfig()
