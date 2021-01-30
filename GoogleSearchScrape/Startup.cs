@@ -54,7 +54,7 @@ namespace GoogleSearchScrape
 
         private void BuildDbOptions(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(Config.GetConnectionString("ScraperDb"),
+            optionsBuilder.UseSqlServer(Config.GetConnectionString("ScraperDb"),
                  x => x.MigrationsAssembly(typeof(Startup)
                     .Assembly.GetName().Name));
         }
