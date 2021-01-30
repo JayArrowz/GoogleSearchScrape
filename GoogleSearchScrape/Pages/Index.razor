@@ -1,0 +1,114 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Layouts
+@using Syncfusion.Blazor.Grids
+@using ChartJs.Blazor
+
+@inherits IndexBase
+<div class="content">
+    <div class="row">
+        <div class="col-md-12 main-chart">
+            <ChartJs.Blazor.Chart @ref="ChartRef" Config="_config">
+            </ChartJs.Blazor.Chart>
+        </div>
+        <div class="col-md-6">
+            <ScrapeRequests></ScrapeRequests>
+        </div>
+
+        <div class="col-md-6">
+            <ScrapeResponses></ScrapeResponses>
+        </div>
+    </div>
+
+    @*    <SfChart EnableCanvas="true" EnableAutoIntervalOnBothAxis="true" EnableExport="true">
+        <ChartPrimaryXAxis IntervalType="IntervalType.Hours" ValueType="Syncfusion.Blazor.Charts.ValueType.DateTimeCategory"></ChartPrimaryXAxis>
+        <ChartPrimaryYAxis IsInversed="true" ValueType="Syncfusion.Blazor.Charts.ValueType.Double"></ChartPrimaryYAxis>
+
+        <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
+        <ChartSeriesCollection>
+            @foreach (var strategyName in StrategyResultsMap)
+            {
+                var chartResults = strategyName.Value;
+
+                <ChartSeries DataSource="chartResults" ColumnSpacing="0.2" ColumnWidth="0.7" Name="@strategyName.Key" XName="@nameof(ScrapeResult.Created)"
+                             YName="@nameof(ScrapeResult.Index)" Type="ChartSeriesType.StackingLine">
+                    <ChartMarker Visible="true">
+                    </ChartMarker>
+                </ChartSeries>
+            }
+        </ChartSeriesCollection>
+    </SfChart>*@
+    @* <SfDashboardLayout Columns="6" CellSpacing="@(new double[]{10 ,10 })">
+            <DashboardLayoutPanels>
+                <DashboardLayoutPanel Id="Panel1" SizeX="4" SizeY="2">
+                    <HeaderTemplate><div class='header'> SEO RANK / DATE per URL</div></HeaderTemplate>
+                    <ContentTemplate>
+                        <SfChart EnableCanvas="true" EnableAutoIntervalOnBothAxis="true" EnableExport="true">
+                            <ChartPrimaryXAxis IntervalType="IntervalType.Hours" ValueType="Syncfusion.Blazor.Charts.ValueType.DateTimeCategory"></ChartPrimaryXAxis>
+                            <ChartPrimaryYAxis IsInversed="true" ValueType="Syncfusion.Blazor.Charts.ValueType.Double"></ChartPrimaryYAxis>
+
+                            <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
+                            <ChartSeriesCollection>
+                                @foreach (var strategyName in StrategyResultsMap)
+                                {
+                                    var chartResults = strategyName.Value;
+
+                                    <ChartSeries DataSource="chartResults" ColumnSpacing="0.2" ColumnWidth="0.7" Name="@strategyName.Key" XName="@nameof(ScrapeResult.Created)"
+                                                 YName="@nameof(ScrapeResult.Index)" Type="ChartSeriesType.StackingLine">
+                                        <ChartMarker Visible="true">
+                                        </ChartMarker>
+                                    </ChartSeries>
+                                }
+                            </ChartSeriesCollection>
+                        </SfChart>
+                    </ContentTemplate>
+                </DashboardLayoutPanel>
+                <DashboardLayoutPanel Id="Panel2" SizeX="2" SizeY="2" Column="4">
+                    <HeaderTemplate><div class='header'> Product sales in Years </div></HeaderTemplate>
+                    <ContentTemplate>
+                        <div style="height:100%; width:100%;">
+
+                        </div>
+                    </ContentTemplate>
+                </DashboardLayoutPanel>
+                <DashboardLayoutPanel Id="Panel3" SizeX="3" SizeY="2" Row=2 Column=3>
+                    <HeaderTemplate><div class='header'> Sales Ratio in Countries </div></HeaderTemplate>
+                    <ContentTemplate>
+                        <div style="height:100%; width:100%;">
+
+
+                        </div>
+
+                    </ContentTemplate>
+                </DashboardLayoutPanel>
+                <DashboardLayoutPanel Id="Panel4" SizeX=3 SizeY=2 Row=2 Column=0>
+                    <HeaderTemplate><div class='header'> Sales Comparison in Products  </div></HeaderTemplate>
+                    <ContentTemplate>
+                        <div style="height:100%; width:100%;">
+
+
+                        </div>
+                    </ContentTemplate>
+                </DashboardLayoutPanel>
+                <DashboardLayoutPanel Id="Panel5" SizeX=6 SizeY=2 Column=6 Row=4>
+                    <HeaderTemplate><div class='header'> Scraper Results</div></HeaderTemplate>
+                    <ContentTemplate>
+                        <div style="height:100%; width:100%;">
+
+
+                        </div>
+                    </ContentTemplate>
+                </DashboardLayoutPanel>
+            </DashboardLayoutPanels>
+        </SfDashboardLayout>*@
+</div>
+@code {
+
+}
+
+<style>
+    #linechart, #grid, #chart1, #chart, #range {
+        height: 100% !important;
+        width: 100% !important;
+    }
+</style>

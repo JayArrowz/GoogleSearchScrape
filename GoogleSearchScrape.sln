@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSearchScrape", "GoogleSearchScrape\GoogleSearchScrape.csproj", "{E1AA34CD-7F4B-4A7F-B289-84AB4E906115}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSearchScrape.Abstractions", "GoogleSearchScrape.Abstractions\GoogleSearchScrape.Abstractions.csproj", "{6659F439-D390-4EA3-AC29-6EFA79B26881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSearchScrape.DAL", "GoogleSearchScrape.DAL\GoogleSearchScrape.DAL.csproj", "{866709BD-AAE2-4E3A-A63F-9CBC32027E63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSearchScrape.Scrapers", "GoogleSearchScrape.Scrapers\GoogleSearchScrape.Scrapers.csproj", "{1C751A53-70FE-4E75-ADDE-BCA70D1E11D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSearchScrape.Scrapers.Test", "GoogleSearchScrape.Scrapers.Test\GoogleSearchScrape.Scrapers.Test.csproj", "{116B981A-3BB1-4822-A449-5A0AAF2F8919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1AA34CD-7F4B-4A7F-B289-84AB4E906115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AA34CD-7F4B-4A7F-B289-84AB4E906115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AA34CD-7F4B-4A7F-B289-84AB4E906115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AA34CD-7F4B-4A7F-B289-84AB4E906115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6659F439-D390-4EA3-AC29-6EFA79B26881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6659F439-D390-4EA3-AC29-6EFA79B26881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6659F439-D390-4EA3-AC29-6EFA79B26881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6659F439-D390-4EA3-AC29-6EFA79B26881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866709BD-AAE2-4E3A-A63F-9CBC32027E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866709BD-AAE2-4E3A-A63F-9CBC32027E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866709BD-AAE2-4E3A-A63F-9CBC32027E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866709BD-AAE2-4E3A-A63F-9CBC32027E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C751A53-70FE-4E75-ADDE-BCA70D1E11D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C751A53-70FE-4E75-ADDE-BCA70D1E11D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C751A53-70FE-4E75-ADDE-BCA70D1E11D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C751A53-70FE-4E75-ADDE-BCA70D1E11D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116B981A-3BB1-4822-A449-5A0AAF2F8919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116B981A-3BB1-4822-A449-5A0AAF2F8919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116B981A-3BB1-4822-A449-5A0AAF2F8919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116B981A-3BB1-4822-A449-5A0AAF2F8919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB4CA6DD-123E-4048-96AB-C8FE8564220A}
+	EndGlobalSection
+EndGlobal

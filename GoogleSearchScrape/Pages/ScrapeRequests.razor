@@ -1,0 +1,35 @@
+﻿@page "/requests"
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Inputs 
+@inherits ScrapeRequestsBase
+
+<h3>Scrape Requests</h3>
+
+<BaseGridView TItem="@TimedScrapeRequest" TKey="int">
+    <GridColumns>
+        <GridColumn Field=@nameof(TimedScrapeRequest.Id) HeaderText="Id" Type="ColumnType.Number" IsPrimaryKey="true" AllowEditing="false" AllowAdding="false" AutoFit="true" Visible="false"></GridColumn>
+        <GridColumn Field=@nameof(TimedScrapeRequest.SearchTerm) HeaderText="Search Term" Type="ColumnType.String" AutoFit="true"></GridColumn>
+        <GridColumn Field=@nameof(TimedScrapeRequest.MaxResults) HeaderText="Max Results" Type="ColumnType.Number" AutoFit="true"></GridColumn>
+        <GridColumn Field=@nameof(TimedScrapeRequest.StrategyName) HeaderText="Strategy Name" Type="ColumnType.String" EditType="EditType.DropDownEdit" DataSource="StrategyNames" AutoFit="true">
+            <EditTemplate>
+
+                @{
+                    var ctx = context as TimedScrapeRequest;
+                }
+                <Syncfusion.Blazor.DropDowns.SfComboBox DataSource="StrategyNames" FloatLabelType="FloatLabelType.Always" @bind-Value="@ctx.StrategyName" Placeholder="Strategy"></Syncfusion.Blazor.DropDowns.SfComboBox>
+            </EditTemplate>
+        </GridColumn>
+        <GridColumn Field=@nameof(TimedScrapeRequest.TargetUrl) HeaderText="Target URL" Type="ColumnType.String" AutoFit="true"></GridColumn>
+        <GridColumn Field=@nameof(TimedScrapeRequest.RepeatTime) HeaderText="Repeat Time" Type="ColumnType.DateTime" Format="HH:mm" AutoFit="true">
+            <EditTemplate>
+
+                @{
+                    var ctx = context as TimedScrapeRequest;
+                }
+                <Syncfusion.Blazor.Calendars.SfTimePicker ID="@nameof(TimedScrapeRequest.RepeatTime)" Placeholder="Repeat Time (hh:mm)" Step="15" FloatLabelType="FloatLabelType.Always" @bind-Value="@ctx.RepeatTime"></Syncfusion.Blazor.Calendars.SfTimePicker>
+            </EditTemplate>
+        </GridColumn>
+        <GridColumn Field=@nameof(TimedScrapeRequest.LastRequest) HeaderText="Last Request" Type="ColumnType.DateTime" AutoFit="true" AllowAdding="false" AllowEditing="false"></GridColumn>
+
+    </GridColumns>
+</BaseGridView>

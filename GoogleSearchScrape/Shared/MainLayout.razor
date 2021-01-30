@@ -1,0 +1,41 @@
+﻿@inherits MainLayoutBase
+@using Syncfusion.Blazor.Notifications
+@using Syncfusion.Blazor.Buttons
+
+<SfToast ID="toast_default" @ref="SfToastObjRef" Title="Download App?" Timeout="5000" Icon="e-meeting">
+    <ToastPosition X="Right" Y="Bottom"></ToastPosition>
+    <ToastTemplates>
+        <Template>
+            <div id="template_toast">
+                <div class="horizontal-align">
+                    <div class="e-icons toast-icons e-alarm"></div>
+                    <div class='toast-content'>
+                        <div class="toast-title">
+                            Install App?
+                        </div>
+                        <div class="toast-message">
+                            <SfButton ID="install" CssClass="e-btn e-flat e-info" @onclick="@InstallClicked"> Install </SfButton>
+                            <SfButton ID="dismiss" CssClass="e-btn e-flat e-info" @onclick="@(() => SfToastObjRef?.Hide())"> No </SfButton>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Template>
+    </ToastTemplates>
+</SfToast>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <div class="main">
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>
