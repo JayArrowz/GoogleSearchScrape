@@ -42,7 +42,7 @@ namespace GoogleSearchScrape.Shared
             }
         }
 
-        private async Task OnBatchDelete(BeforeBatchDeleteArgs<TItem> args)
+        protected async Task OnBatchDelete(BeforeBatchDeleteArgs<TItem> args)
         {
             try
             {

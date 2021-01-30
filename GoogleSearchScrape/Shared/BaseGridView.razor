@@ -9,11 +9,11 @@
         AllowSorting="true" Toolbar="@(new List<string>() { "Add", "Edit", "Update", "Delete", ExcelExportToolbarItem, RefreshToolbarItem, "Search"})"
         ContextMenuItems="@(new List<object>() { "AutoFit", "AutoFitAll", "SortAscending", "SortDescending","Edit", "Delete", "FirstPage", "PrevPage","LastPage", "NextPage"})" Height="600">
     <SfDataManager @ref="DataManager" AdaptorInstance="@DataAdapterType" Adaptor="Adaptors.CustomAdaptor"></SfDataManager>
-    <GridEvents OnToolbarClick="ToolbarClickHandler" TValue="@TItem"></GridEvents>
+    <GridEvents OnActionBegin="OnActionBegin" OnBatchDelete="OnBatchDelete" OnToolbarClick="ToolbarClickHandler" TValue="@TItem"></GridEvents>
     <GridEditSettings ShowDeleteConfirmDialog="true" AllowAdding="true" AllowEditing="true" AllowDeleting="true" Mode="EditMode.Dialog"></GridEditSettings>
-     <GridFilterSettings Type="Syncfusion.Blazor.Grids.FilterType.CheckBox"></GridFilterSettings>
-    <GridSelectionSettings  CheckboxMode="CheckboxSelectionType.Default" Type="SelectionType.Multiple"></GridSelectionSettings>
- 
+    <GridFilterSettings Type="Syncfusion.Blazor.Grids.FilterType.Excel"></GridFilterSettings>
+    <GridSelectionSettings CheckboxMode="CheckboxSelectionType.Default" Type="SelectionType.Multiple"></GridSelectionSettings>
+
     <GridColumns>
         <GridColumn AllowEditing="false" Type="ColumnType.CheckBox" Width="50"></GridColumn>
         @GridColumns
