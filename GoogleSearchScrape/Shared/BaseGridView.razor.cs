@@ -17,7 +17,11 @@ namespace GoogleSearchScrape.Shared
 
     public class BaseGridViewBase<TItem, TKey> : ComponentBase where TItem : class, IDao<TKey>
     {
+        [Parameter]
+        public string Id { get; set; }
+
         protected const string ExcelExportToolbarItem = "ExcelExport";
+        protected const string RefreshToolbarItem = "Refresh";
         protected SfGrid<TItem> SfGridRef { get; set; }
 
         [Parameter]
@@ -62,6 +66,9 @@ namespace GoogleSearchScrape.Shared
             if(args.Item.Id.EndsWith(ExcelExportToolbarItem, StringComparison.InvariantCultureIgnoreCase))
             {
                 SfGridRef?.ExcelExport();
+            } else if(args.Item.Id.EndsWith(RefreshToolbarItem, StringComparison.InvariantCultureIgnoreCase))
+            {
+                SfGridRef?.Refresh();
             }
             return Task.CompletedTask;
         }

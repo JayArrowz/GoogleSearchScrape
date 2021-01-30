@@ -4,7 +4,7 @@
 
 <h3>Scrape Results</h3>
 
-<BaseGridView TItem="@ScrapeResult" TKey="int">
+<BaseGridView Id="result-grid" TItem="@ScrapeResult" TKey="int">
     <GridColumns>
         <GridColumn Field=@nameof(ScrapeResult.Id) HeaderText="Id" Type="ColumnType.Number" IsPrimaryKey="true" AllowEditing="false" AllowAdding="false" AutoFit="true" Visible="false"></GridColumn>
         <GridColumn Field=@nameof(ScrapeResult.Title) HeaderText="Title" MaxWidth="120" Type="ColumnType.String" AutoFit="true"></GridColumn>

@@ -5,8 +5,8 @@
 @using Syncfusion.Blazor.Grids
 @using Syncfusion.Blazor.Data
 
-<SfGrid @ref="SfGridRef" ID="Grid" TValue="@TItem" AllowPaging="true" AllowFiltering="true" AllowReordering="true" AllowResizing="true" AllowExcelExport="true" AllowSelection="true"
-        AllowSorting="true" Toolbar="@(new List<string>() { "Add", "Edit", "Update", "Delete", ExcelExportToolbarItem,"Search"})"
+<SfGrid @ref="SfGridRef" ID="@Id" TValue="@TItem" AllowPaging="true" AllowFiltering="true" AllowReordering="true" AllowResizing="true" AllowExcelExport="true" AllowSelection="true"
+        AllowSorting="true" Toolbar="@(new List<string>() { "Add", "Edit", "Update", "Delete", ExcelExportToolbarItem, RefreshToolbarItem, "Search"})"
         ContextMenuItems="@(new List<object>() { "AutoFit", "AutoFitAll", "SortAscending", "SortDescending","Edit", "Delete", "FirstPage", "PrevPage","LastPage", "NextPage"})" Height="600">
     <SfDataManager @ref="DataManager" AdaptorInstance="@DataAdapterType" Adaptor="Adaptors.CustomAdaptor"></SfDataManager>
     <GridEvents OnToolbarClick="ToolbarClickHandler" TValue="@TItem"></GridEvents>

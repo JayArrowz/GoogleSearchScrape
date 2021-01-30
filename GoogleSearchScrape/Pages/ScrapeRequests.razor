@@ -5,7 +5,7 @@
 
 <h3>Scrape Requests</h3>
 
-<BaseGridView TItem="@TimedScrapeRequest" TKey="int">
+<BaseGridView Id="request-grid" TItem="@TimedScrapeRequest" TKey="int">
     <GridColumns>
         <GridColumn Field=@nameof(TimedScrapeRequest.Id) HeaderText="Id" Type="ColumnType.Number" IsPrimaryKey="true" AllowEditing="false" AllowAdding="false" AutoFit="true" Visible="false"></GridColumn>
         <GridColumn Field=@nameof(TimedScrapeRequest.SearchTerm) HeaderText="Search Term" Type="ColumnType.String" AutoFit="true"></GridColumn>
