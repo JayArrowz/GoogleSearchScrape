@@ -9,7 +9,7 @@ An extendable Search Scraper to list SEO rankings
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-* [PostgresSQL](https://www.postgresql.org/download/)
+* [SQLExpress](https://www.microsoft.com/en-us/download/details.aspx?id=101064)
 * [Net5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
 
 ### Installing
