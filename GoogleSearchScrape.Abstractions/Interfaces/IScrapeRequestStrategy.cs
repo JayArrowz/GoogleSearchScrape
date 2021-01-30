@@ -4,6 +4,10 @@ using System.Threading.Tasks;
 
 namespace GoogleSearchScrape.Abstractions.Interfaces
 {
+    /// <summary>
+    /// The ScrapeRequestStrategy handles the operations when scraping
+    /// a <see cref="ScrapeRequest"/>
+    /// </summary>
     public interface IScrapeRequestStrategy
     {
         /// <summary>
