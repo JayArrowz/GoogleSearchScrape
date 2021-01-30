@@ -2,7 +2,7 @@
 An extendable Search Scraper to list SEO rankings
 
 ### Code Docs
-* [All Docs](/GoogleSearchScrape/api)
+* [All Docs](https://jayarrowz.github.io/GoogleSearchScrape/api)
 
 ## Getting Started
 
