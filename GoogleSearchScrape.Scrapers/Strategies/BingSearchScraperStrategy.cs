@@ -14,7 +14,7 @@ namespace GoogleSearchScrape.Scrapers.Strategies
         private const string BingSearchItemXPath = "//html/body/div/main/ol/li[@class='b_algo']/h2/a";
 
         /// <summary>
-        /// Google search URL with {0} being the <see cref="ScrapeRequest.SearchTerm"/> 
+        /// Bing search URL with {0} being the <see cref="ScrapeRequest.SearchTerm"/> 
         /// and {1} being <see cref="ScrapeRequest.MaxResults"/> 
         /// </summary>
         public override string Url => "https://www.bing.com/search?q={0}&count={1}";
