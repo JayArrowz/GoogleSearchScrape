@@ -35,10 +35,6 @@ dotnet run --project GoogleSearchScrape
 2. Go to the dashboard and wait for the graph to update 'https://localhost:5001/' The Y Axis denotes the rank on the search engine so the lower it is the better.
 ![ImageThree](https://i.imgur.com/UqVszq5.png)
 
-## Note
-Syncfusion requires a license, and this can be obtained for free by going to https://www.syncfusion.com/. This license key can be 
-This application can be run without syncfusion
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
