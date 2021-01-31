@@ -27,6 +27,12 @@ namespace GoogleSearchScrape.Scrapers.Services
             _databaseContextFactory = databaseContextFactory;
         }
 
+        /// <summary>
+        /// Executes the scraper service task every 30 seconds. 
+        /// This service esentially executes <see cref="IScrapeHandler{TimedScrapeRequest}"/> and persists
+        /// any filtered results to the database
+        /// </summary>
+        /// <param name="cancellationToken">The cancellation token.</param>
         protected override async Task ExecuteAsync(CancellationToken cancellationToken)
         {
             while (!cancellationToken.IsCancellationRequested)
