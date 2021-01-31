@@ -30,6 +30,12 @@ namespace GoogleSearchScrape.Scrapers.Handlers
         {
             var minutes = scrapeRequest.RepeatTime.TimeOfDay.Minutes;
             var hours = scrapeRequest.RepeatTime.TimeOfDay.Hours;
+
+            if(minutes == 0 && hours == 0)
+            {
+                return new();
+            }
+
             var timeToAdd = TimeSpan.FromHours(hours).Add(TimeSpan.FromMinutes(minutes));
 
             var passedElapsed = !scrapeRequest.LastRequest.HasValue
