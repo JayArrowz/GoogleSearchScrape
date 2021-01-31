@@ -13,23 +13,13 @@ namespace GoogleSearchScrape.Scrapers.Test.Handlers
 {
     public class ScrapeRequestHandlerTests
     {
-        private readonly ScrapeRequestHandler _scrapeRequestHandler;
         private const string FakeStrategyName = "fake";
-
-        public readonly List<ScrapeResult> _fakeData = new()
+        private readonly ScrapeRequestHandler _scrapeRequestHandler;
+        private readonly List<ScrapeResult> _fakeData = new()
         {
-            new ScrapeResult
-            {
-                Url = "google.com"
-            },
-            new ScrapeResult
-            {
-                Url = "google.com"
-            },
-            new ScrapeResult
-            {
-                Url = "wales.com"
-            }
+            new ScrapeResult { Url = "google.com" },
+            new ScrapeResult { Url = "google.com" },
+            new ScrapeResult { Url = "wales.com" }
         };
 
         public ScrapeRequestHandlerTests()
