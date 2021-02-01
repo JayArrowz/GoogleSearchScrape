@@ -106,10 +106,7 @@ namespace GoogleSearchScrape.Pages
         {
             SetResults();
             SetChartDataset(false);
-            InvokeAsync(() =>
-            {
-                ChartRef.Update();
-            });
+            InvokeAsync(ChartRef.Update);
         }
 
         protected override async Task OnInitializedAsync()
@@ -117,8 +114,16 @@ namespace GoogleSearchScrape.Pages
             SetResults();
             CreateChartConfig();
             SetChartDataset(true);
-            StartRefereshTimer();
             await base.OnInitializedAsync();
+        }
+
+        protected override void OnAfterRender(bool firstRender)
+        {
+            if (firstRender)
+            {
+                StartRefereshTimer();
+            }
+            base.OnAfterRender(firstRender);
         }
 
         private void SetChartDataset(bool createNew)
@@ -127,7 +132,7 @@ namespace GoogleSearchScrape.Pages
             for (int i = 0; i < StrategyResultsMap.Count; i++)
             {
                 var key = keys[i];
-                IDataset<TimePoint> dataSet = !createNew ? 
+                IDataset<TimePoint> dataSet = !createNew ?
                     (_dataSets.FirstOrDefault(t => t?.Name == key)?.DataSet) :
                     NewLineDataset(key);
                 var newDataSet = createNew || dataSet == null;
