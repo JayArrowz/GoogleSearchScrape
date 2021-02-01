@@ -53,10 +53,11 @@ namespace GoogleSearchScrape.Scrapers.Strategies
         protected override List<ScrapeResult> Get(ScrapeRequest request, HtmlDocument doc)
         {
             ScrapeResult firstScrapeResult = null;
-            try
+
+            var firstResult = doc.DocumentNode.SelectSingleNode(FirstResultPath);
+            if (firstResult != null)
             {
-                var firstResult = doc.DocumentNode.SelectSingleNode(FirstResultPath);
-                var firstResultText = doc.DocumentNode.SelectSingleNode(FirstResultPathTitle)?.InnerText ?? "No Title?";
+                var firstResultText = doc.DocumentNode.SelectSingleNode(FirstResultPathTitle)?.InnerText;
                 firstScrapeResult = new ScrapeResult
                 {
                     Title = firstResultText,
@@ -64,9 +65,9 @@ namespace GoogleSearchScrape.Scrapers.Strategies
                     Created = DateTimeOffset.UtcNow,
                     Index = 1
                 };
-            } catch(Exception e)
+            } else
             {
-                Serilog.Log.Logger.Error(e, "Cannot find first scrape result");
+                Serilog.Log.Logger.Warning("First result for {@request} not found", request);
             }
 
             var htmlBlock = doc.DocumentNode.SelectNodes(GoogleSearchTitlePath);
