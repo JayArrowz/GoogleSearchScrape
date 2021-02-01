@@ -63,7 +63,7 @@ namespace GoogleSearchScrape.Pages
         }
 
         protected Chart ChartRef { get; set; }
-        public Timer _timer { get; set; }
+        private Timer _timer;
         private readonly List<(string Name, IDataset<TimePoint> DataSet)?> _dataSets = new();
         private void SetResults()
         {
