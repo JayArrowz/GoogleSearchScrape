@@ -221,6 +221,7 @@ namespace GoogleSearchScrape.Pages
 
         public void Dispose()
         {
+            _timer?.Stop();
             _timer?.Dispose();
         }
     }
