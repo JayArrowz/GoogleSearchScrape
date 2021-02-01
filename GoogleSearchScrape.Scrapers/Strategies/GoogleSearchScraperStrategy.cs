@@ -52,15 +52,22 @@ namespace GoogleSearchScrape.Scrapers.Strategies
         /// <returns></returns>
         protected override List<ScrapeResult> Get(ScrapeRequest request, HtmlDocument doc)
         {
-            var firstResult = doc.DocumentNode.SelectSingleNode(FirstResultPath);
-            var firstResultText = doc.DocumentNode.SelectSingleNode(FirstResultPathTitle).InnerText;
-            var firstScrapeResult = new ScrapeResult
+            ScrapeResult firstScrapeResult = null;
+            try
             {
-                Title = firstResultText,
-                Url = firstResult.GetAttributeValue<string>("href", string.Empty),
-                Created = DateTimeOffset.UtcNow,
-                Index = 1
-            };
+                var firstResult = doc.DocumentNode.SelectSingleNode(FirstResultPath);
+                var firstResultText = doc.DocumentNode.SelectSingleNode(FirstResultPathTitle)?.InnerText ?? "No Title?";
+                firstScrapeResult = new ScrapeResult
+                {
+                    Title = firstResultText,
+                    Url = firstResult.GetAttributeValue<string>("href", string.Empty),
+                    Created = DateTimeOffset.UtcNow,
+                    Index = 1
+                };
+            } catch(Exception e)
+            {
+                Serilog.Log.Logger.Error(e, "Cannot find first scrape result");
+            }
 
             var htmlBlock = doc.DocumentNode.SelectNodes(GoogleSearchTitlePath);
             var links = htmlBlock
@@ -69,10 +76,14 @@ namespace GoogleSearchScrape.Scrapers.Strategies
                     Title = aElement.InnerText,
                     Url = aElement.GetAttributeValue<string>("href", string.Empty),
                     Created = DateTimeOffset.UtcNow,
-                    Index = index + 2
+                    Index = firstScrapeResult == null ? index + 1 : index + 2
                 });
             var resultList = links.ToList();
-            resultList.Add(firstScrapeResult);
+
+            if (firstScrapeResult != null)
+            {
+                resultList.Add(firstScrapeResult);
+            }
             return resultList;
         }
     }
