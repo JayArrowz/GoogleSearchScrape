@@ -140,9 +140,9 @@ namespace GoogleSearchScrape.Pages
                 {
                     dataSet = NewLineDataset(key);
                 }
-                foreach (var month in StrategyResultsMap[key])
+                foreach (var chartData in StrategyResultsMap[key])
                 {
-                    var timePoint = new TimePoint(month.Created, month.Index);
+                    var timePoint = new TimePoint(chartData.Created, chartData.Index);
 
                     if (!dataSet.Contains(timePoint))
                     {
