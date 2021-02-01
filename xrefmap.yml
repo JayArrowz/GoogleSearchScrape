@@ -1,0 +1,1871 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: GoogleSearchScrape
+  name: GoogleSearchScrape
+  href: api/GoogleSearchScrape.html
+  commentId: N:GoogleSearchScrape
+  fullName: GoogleSearchScrape
+  nameWithType: GoogleSearchScrape
+- uid: GoogleSearchScrape.Abstractions.Interfaces
+  name: GoogleSearchScrape.Abstractions.Interfaces
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.html
+  commentId: N:GoogleSearchScrape.Abstractions.Interfaces
+  fullName: GoogleSearchScrape.Abstractions.Interfaces
+  nameWithType: GoogleSearchScrape.Abstractions.Interfaces
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IDao`1
+  name: IDao<T>
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IDao-1.html
+  commentId: T:GoogleSearchScrape.Abstractions.Interfaces.IDao`1
+  name.vb: IDao(Of T)
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IDao<T>
+  fullName.vb: GoogleSearchScrape.Abstractions.Interfaces.IDao(Of T)
+  nameWithType: IDao<T>
+  nameWithType.vb: IDao(Of T)
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IDao`1.Id
+  name: Id
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IDao-1.html#GoogleSearchScrape_Abstractions_Interfaces_IDao_1_Id
+  commentId: P:GoogleSearchScrape.Abstractions.Interfaces.IDao`1.Id
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IDao<T>.Id
+  fullName.vb: GoogleSearchScrape.Abstractions.Interfaces.IDao(Of T).Id
+  nameWithType: IDao<T>.Id
+  nameWithType.vb: IDao(Of T).Id
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IDao`1.Id*
+  name: Id
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IDao-1.html#GoogleSearchScrape_Abstractions_Interfaces_IDao_1_Id_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Interfaces.IDao`1.Id
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IDao<T>.Id
+  fullName.vb: GoogleSearchScrape.Abstractions.Interfaces.IDao(Of T).Id
+  nameWithType: IDao<T>.Id
+  nameWithType.vb: IDao(Of T).Id
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler`1
+  name: IScrapeHandler<T>
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler-1.html
+  commentId: T:GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler`1
+  name.vb: IScrapeHandler(Of T)
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler<T>
+  fullName.vb: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler(Of T)
+  nameWithType: IScrapeHandler<T>
+  nameWithType.vb: IScrapeHandler(Of T)
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler`1.HandleAsync(`0,DateTimeOffset)
+  name: HandleAsync(T, DateTimeOffset)
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler-1.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeHandler_1_HandleAsync__0_DateTimeOffset_
+  commentId: M:GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler`1.HandleAsync(`0,DateTimeOffset)
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler<T>.HandleAsync(T, DateTimeOffset)
+  fullName.vb: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler(Of T).HandleAsync(T, DateTimeOffset)
+  nameWithType: IScrapeHandler<T>.HandleAsync(T, DateTimeOffset)
+  nameWithType.vb: IScrapeHandler(Of T).HandleAsync(T, DateTimeOffset)
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler`1.HandleAsync*
+  name: HandleAsync
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler-1.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeHandler_1_HandleAsync_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler`1.HandleAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler<T>.HandleAsync
+  fullName.vb: GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler(Of T).HandleAsync
+  nameWithType: IScrapeHandler<T>.HandleAsync
+  nameWithType.vb: IScrapeHandler(Of T).HandleAsync
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy
+  name: IScrapeRequestStrategy
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html
+  commentId: T:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy
+  nameWithType: IScrapeRequestStrategy
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.GetAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  name: GetAsync(ScrapeRequest)
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy_GetAsync_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_
+  commentId: M:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.GetAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.GetAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  nameWithType: IScrapeRequestStrategy.GetAsync(ScrapeRequest)
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.GetAsync*
+  name: GetAsync
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy_GetAsync_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.GetAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.GetAsync
+  nameWithType: IScrapeRequestStrategy.GetAsync
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Name
+  name: Name
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy_Name
+  commentId: P:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Name
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Name
+  nameWithType: IScrapeRequestStrategy.Name
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Name*
+  name: Name
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy_Name_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Name
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Name
+  nameWithType: IScrapeRequestStrategy.Name
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Url
+  name: Url
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy_Url
+  commentId: P:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Url
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Url
+  nameWithType: IScrapeRequestStrategy.Url
+- uid: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Url*
+  name: Url
+  href: api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html#GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy_Url_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Url
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.Url
+  nameWithType: IScrapeRequestStrategy.Url
+- uid: GoogleSearchScrape.Abstractions.Model
+  name: GoogleSearchScrape.Abstractions.Model
+  href: api/GoogleSearchScrape.Abstractions.Model.html
+  commentId: N:GoogleSearchScrape.Abstractions.Model
+  fullName: GoogleSearchScrape.Abstractions.Model
+  nameWithType: GoogleSearchScrape.Abstractions.Model
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest
+  name: ScrapeRequest
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html
+  commentId: T:GoogleSearchScrape.Abstractions.Model.ScrapeRequest
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest
+  nameWithType: ScrapeRequest
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.LastRequest
+  name: LastRequest
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_LastRequest
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.LastRequest
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.LastRequest
+  nameWithType: ScrapeRequest.LastRequest
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.LastRequest*
+  name: LastRequest
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_LastRequest_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.LastRequest
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.LastRequest
+  nameWithType: ScrapeRequest.LastRequest
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.MaxResults
+  name: MaxResults
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_MaxResults
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.MaxResults
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.MaxResults
+  nameWithType: ScrapeRequest.MaxResults
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.MaxResults*
+  name: MaxResults
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_MaxResults_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.MaxResults
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.MaxResults
+  nameWithType: ScrapeRequest.MaxResults
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.ScrapeResults
+  name: ScrapeResults
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_ScrapeResults
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.ScrapeResults
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.ScrapeResults
+  nameWithType: ScrapeRequest.ScrapeResults
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.ScrapeResults*
+  name: ScrapeResults
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_ScrapeResults_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.ScrapeResults
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.ScrapeResults
+  nameWithType: ScrapeRequest.ScrapeResults
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.SearchTerm
+  name: SearchTerm
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_SearchTerm
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.SearchTerm
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.SearchTerm
+  nameWithType: ScrapeRequest.SearchTerm
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.SearchTerm*
+  name: SearchTerm
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_SearchTerm_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.SearchTerm
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.SearchTerm
+  nameWithType: ScrapeRequest.SearchTerm
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.StrategyName
+  name: StrategyName
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_StrategyName
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.StrategyName
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.StrategyName
+  nameWithType: ScrapeRequest.StrategyName
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.StrategyName*
+  name: StrategyName
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_StrategyName_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.StrategyName
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.StrategyName
+  nameWithType: ScrapeRequest.StrategyName
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.TargetUrl
+  name: TargetUrl
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_TargetUrl
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.TargetUrl
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.TargetUrl
+  nameWithType: ScrapeRequest.TargetUrl
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.TargetUrl*
+  name: TargetUrl
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_ScrapeRequest_TargetUrl_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeRequest.TargetUrl
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeRequest.TargetUrl
+  nameWithType: ScrapeRequest.TargetUrl
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult
+  name: ScrapeResult
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html
+  commentId: T:GoogleSearchScrape.Abstractions.Model.ScrapeResult
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult
+  nameWithType: ScrapeResult
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Created
+  name: Created
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Created
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Created
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Created
+  nameWithType: ScrapeResult.Created
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Created*
+  name: Created
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Created_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Created
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Created
+  nameWithType: ScrapeResult.Created
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Description
+  name: Description
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Description
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Description
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Description
+  nameWithType: ScrapeResult.Description
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Description*
+  name: Description
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Description_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Description
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Description
+  nameWithType: ScrapeResult.Description
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Id
+  name: Id
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Id
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Id
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Id
+  nameWithType: ScrapeResult.Id
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Id*
+  name: Id
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Id_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Id
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Id
+  nameWithType: ScrapeResult.Id
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Index
+  name: Index
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Index
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Index
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Index
+  nameWithType: ScrapeResult.Index
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Index*
+  name: Index
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Index_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Index
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Index
+  nameWithType: ScrapeResult.Index
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Request
+  name: Request
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Request
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Request
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Request
+  nameWithType: ScrapeResult.Request
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Request*
+  name: Request
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Request_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Request
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Request
+  nameWithType: ScrapeResult.Request
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.RequestId
+  name: RequestId
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_RequestId
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.RequestId
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.RequestId
+  nameWithType: ScrapeResult.RequestId
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.RequestId*
+  name: RequestId
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_RequestId_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.RequestId
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.RequestId
+  nameWithType: ScrapeResult.RequestId
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Title
+  name: Title
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Title
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Title
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Title
+  nameWithType: ScrapeResult.Title
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Title*
+  name: Title
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Title_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Title
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Title
+  nameWithType: ScrapeResult.Title
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Url
+  name: Url
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Url
+  commentId: P:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Url
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Url
+  nameWithType: ScrapeResult.Url
+- uid: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Url*
+  name: Url
+  href: api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html#GoogleSearchScrape_Abstractions_Model_ScrapeResult_Url_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.ScrapeResult.Url
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.ScrapeResult.Url
+  nameWithType: ScrapeResult.Url
+- uid: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest
+  name: TimedScrapeRequest
+  href: api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.html
+  commentId: T:GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest
+  fullName: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest
+  nameWithType: TimedScrapeRequest
+- uid: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.Id
+  name: Id
+  href: api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_TimedScrapeRequest_Id
+  commentId: P:GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.Id
+  fullName: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.Id
+  nameWithType: TimedScrapeRequest.Id
+- uid: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.Id*
+  name: Id
+  href: api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_TimedScrapeRequest_Id_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.Id
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.Id
+  nameWithType: TimedScrapeRequest.Id
+- uid: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.RepeatTime
+  name: RepeatTime
+  href: api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_TimedScrapeRequest_RepeatTime
+  commentId: P:GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.RepeatTime
+  fullName: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.RepeatTime
+  nameWithType: TimedScrapeRequest.RepeatTime
+- uid: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.RepeatTime*
+  name: RepeatTime
+  href: api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.html#GoogleSearchScrape_Abstractions_Model_TimedScrapeRequest_RepeatTime_
+  commentId: Overload:GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.RepeatTime
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.RepeatTime
+  nameWithType: TimedScrapeRequest.RepeatTime
+- uid: GoogleSearchScrape.DAL
+  name: GoogleSearchScrape.DAL
+  href: api/GoogleSearchScrape.DAL.html
+  commentId: N:GoogleSearchScrape.DAL
+  fullName: GoogleSearchScrape.DAL
+  nameWithType: GoogleSearchScrape.DAL
+- uid: GoogleSearchScrape.DAL.DALModule
+  name: DALModule
+  href: api/GoogleSearchScrape.DAL.DALModule.html
+  commentId: T:GoogleSearchScrape.DAL.DALModule
+  fullName: GoogleSearchScrape.DAL.DALModule
+  nameWithType: DALModule
+- uid: GoogleSearchScrape.DAL.DALModule.Load(ContainerBuilder)
+  name: Load(ContainerBuilder)
+  href: api/GoogleSearchScrape.DAL.DALModule.html#GoogleSearchScrape_DAL_DALModule_Load_ContainerBuilder_
+  commentId: M:GoogleSearchScrape.DAL.DALModule.Load(ContainerBuilder)
+  fullName: GoogleSearchScrape.DAL.DALModule.Load(ContainerBuilder)
+  nameWithType: DALModule.Load(ContainerBuilder)
+- uid: GoogleSearchScrape.DAL.DALModule.Load*
+  name: Load
+  href: api/GoogleSearchScrape.DAL.DALModule.html#GoogleSearchScrape_DAL_DALModule_Load_
+  commentId: Overload:GoogleSearchScrape.DAL.DALModule.Load
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DALModule.Load
+  nameWithType: DALModule.Load
+- uid: GoogleSearchScrape.DAL.DataAdapter
+  name: GoogleSearchScrape.DAL.DataAdapter
+  href: api/GoogleSearchScrape.DAL.DataAdapter.html
+  commentId: N:GoogleSearchScrape.DAL.DataAdapter
+  fullName: GoogleSearchScrape.DAL.DataAdapter
+  nameWithType: GoogleSearchScrape.DAL.DataAdapter
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2
+  name: BaseDataAdapter<TEntity, TKey>
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html
+  commentId: T:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2
+  name.vb: BaseDataAdapter(Of TEntity, TKey)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey)
+  nameWithType: BaseDataAdapter<TEntity, TKey>
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.#ctor(IDbContextFactory{NetScape.Modules.DAL.DatabaseContext})
+  name: BaseDataAdapter(IDbContextFactory<DatabaseContext>)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2__ctor_IDbContextFactory_NetScape_Modules_DAL_DatabaseContext__
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.#ctor(IDbContextFactory{NetScape.Modules.DAL.DatabaseContext})
+  name.vb: BaseDataAdapter(IDbContextFactory(Of DatabaseContext))
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.BaseDataAdapter(IDbContextFactory<NetScape.Modules.DAL.DatabaseContext>)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).BaseDataAdapter(IDbContextFactory(Of NetScape.Modules.DAL.DatabaseContext))
+  nameWithType: BaseDataAdapter<TEntity, TKey>.BaseDataAdapter(IDbContextFactory<DatabaseContext>)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).BaseDataAdapter(IDbContextFactory(Of DatabaseContext))
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.#ctor*
+  name: BaseDataAdapter
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2__ctor_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.BaseDataAdapter
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).BaseDataAdapter
+  nameWithType: BaseDataAdapter<TEntity, TKey>.BaseDataAdapter
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).BaseDataAdapter
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.AsQueryable(NetScape.Modules.DAL.DatabaseContext)
+  name: AsQueryable(DatabaseContext)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_AsQueryable_NetScape_Modules_DAL_DatabaseContext_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.AsQueryable(NetScape.Modules.DAL.DatabaseContext)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.AsQueryable(NetScape.Modules.DAL.DatabaseContext)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).AsQueryable(NetScape.Modules.DAL.DatabaseContext)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.AsQueryable(DatabaseContext)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).AsQueryable(DatabaseContext)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.AsQueryable*
+  name: AsQueryable
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_AsQueryable_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.AsQueryable
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.AsQueryable
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).AsQueryable
+  nameWithType: BaseDataAdapter<TEntity, TKey>.AsQueryable
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).AsQueryable
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.DatabaseContextFactory
+  name: DatabaseContextFactory
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_DatabaseContextFactory
+  commentId: P:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.DatabaseContextFactory
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.DatabaseContextFactory
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).DatabaseContextFactory
+  nameWithType: BaseDataAdapter<TEntity, TKey>.DatabaseContextFactory
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).DatabaseContextFactory
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.DatabaseContextFactory*
+  name: DatabaseContextFactory
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_DatabaseContextFactory_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.DatabaseContextFactory
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.DatabaseContextFactory
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).DatabaseContextFactory
+  nameWithType: BaseDataAdapter<TEntity, TKey>.DatabaseContextFactory
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).DatabaseContextFactory
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.FilterRead(IQueryable{`0})
+  name: FilterRead(IQueryable<TEntity>)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_FilterRead_IQueryable__0__
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.FilterRead(IQueryable{`0})
+  name.vb: FilterRead(IQueryable(Of TEntity))
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.FilterRead(IQueryable<TEntity>)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).FilterRead(IQueryable(Of TEntity))
+  nameWithType: BaseDataAdapter<TEntity, TKey>.FilterRead(IQueryable<TEntity>)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).FilterRead(IQueryable(Of TEntity))
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.FilterRead*
+  name: FilterRead
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_FilterRead_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.FilterRead
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.FilterRead
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).FilterRead
+  nameWithType: BaseDataAdapter<TEntity, TKey>.FilterRead
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).FilterRead
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Get(`1)
+  name: Get(TKey)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_Get__1_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Get(`1)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.Get(TKey)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).Get(TKey)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.Get(TKey)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).Get(TKey)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Get*
+  name: Get
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_Get_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Get
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.Get
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).Get
+  nameWithType: BaseDataAdapter<TEntity, TKey>.Get
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).Get
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.GetAsync(`1)
+  name: GetAsync(TKey)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_GetAsync__1_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.GetAsync(`1)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.GetAsync(TKey)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).GetAsync(TKey)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.GetAsync(TKey)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).GetAsync(TKey)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.GetAsync*
+  name: GetAsync
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_GetAsync_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.GetAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.GetAsync
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).GetAsync
+  nameWithType: BaseDataAdapter<TEntity, TKey>.GetAsync
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).GetAsync
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.InsertAsync(DataManager,System.Object,System.String)
+  name: InsertAsync(DataManager, Object, String)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_InsertAsync_DataManager_System_Object_System_String_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.InsertAsync(DataManager,System.Object,System.String)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.InsertAsync(DataManager, System.Object, System.String)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).InsertAsync(DataManager, System.Object, System.String)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.InsertAsync(DataManager, Object, String)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).InsertAsync(DataManager, Object, String)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.InsertAsync*
+  name: InsertAsync
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_InsertAsync_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.InsertAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.InsertAsync
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).InsertAsync
+  nameWithType: BaseDataAdapter<TEntity, TKey>.InsertAsync
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).InsertAsync
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.ListFilter(List{`0})
+  name: ListFilter(List<TEntity>)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_ListFilter_List__0__
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.ListFilter(List{`0})
+  name.vb: ListFilter(List(Of TEntity))
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.ListFilter(List<TEntity>)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).ListFilter(List(Of TEntity))
+  nameWithType: BaseDataAdapter<TEntity, TKey>.ListFilter(List<TEntity>)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).ListFilter(List(Of TEntity))
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.ListFilter*
+  name: ListFilter
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_ListFilter_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.ListFilter
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.ListFilter
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).ListFilter
+  nameWithType: BaseDataAdapter<TEntity, TKey>.ListFilter
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).ListFilter
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Read(DataManagerRequest,System.String)
+  name: Read(DataManagerRequest, String)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_Read_DataManagerRequest_System_String_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Read(DataManagerRequest,System.String)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.Read(DataManagerRequest, System.String)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).Read(DataManagerRequest, System.String)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.Read(DataManagerRequest, String)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).Read(DataManagerRequest, String)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Read*
+  name: Read
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_Read_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.Read
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.Read
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).Read
+  nameWithType: BaseDataAdapter<TEntity, TKey>.Read
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).Read
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.RemoveAsync(DataManager,System.Object,System.String,System.String)
+  name: RemoveAsync(DataManager, Object, String, String)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_RemoveAsync_DataManager_System_Object_System_String_System_String_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.RemoveAsync(DataManager,System.Object,System.String,System.String)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.RemoveAsync(DataManager, System.Object, System.String, System.String)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).RemoveAsync(DataManager, System.Object, System.String, System.String)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.RemoveAsync(DataManager, Object, String, String)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).RemoveAsync(DataManager, Object, String, String)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.RemoveAsync*
+  name: RemoveAsync
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_RemoveAsync_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.RemoveAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.RemoveAsync
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).RemoveAsync
+  nameWithType: BaseDataAdapter<TEntity, TKey>.RemoveAsync
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).RemoveAsync
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.UpdateAsync(DataManager,System.Object,System.String,System.String)
+  name: UpdateAsync(DataManager, Object, String, String)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_UpdateAsync_DataManager_System_Object_System_String_System_String_
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.UpdateAsync(DataManager,System.Object,System.String,System.String)
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.UpdateAsync(DataManager, System.Object, System.String, System.String)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).UpdateAsync(DataManager, System.Object, System.String, System.String)
+  nameWithType: BaseDataAdapter<TEntity, TKey>.UpdateAsync(DataManager, Object, String, String)
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).UpdateAsync(DataManager, Object, String, String)
+- uid: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.UpdateAsync*
+  name: UpdateAsync
+  href: api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html#GoogleSearchScrape_DAL_DataAdapter_BaseDataAdapter_2_UpdateAsync_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter`2.UpdateAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter<TEntity, TKey>.UpdateAsync
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter(Of TEntity, TKey).UpdateAsync
+  nameWithType: BaseDataAdapter<TEntity, TKey>.UpdateAsync
+  nameWithType.vb: BaseDataAdapter(Of TEntity, TKey).UpdateAsync
+- uid: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter
+  name: ScrapeResultDataAdapter
+  href: api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.html
+  commentId: T:GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter
+  fullName: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter
+  nameWithType: ScrapeResultDataAdapter
+- uid: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.#ctor(IDbContextFactory{NetScape.Modules.DAL.DatabaseContext})
+  name: ScrapeResultDataAdapter(IDbContextFactory<DatabaseContext>)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.html#GoogleSearchScrape_DAL_DataAdapter_ScrapeResultDataAdapter__ctor_IDbContextFactory_NetScape_Modules_DAL_DatabaseContext__
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.#ctor(IDbContextFactory{NetScape.Modules.DAL.DatabaseContext})
+  name.vb: ScrapeResultDataAdapter(IDbContextFactory(Of DatabaseContext))
+  fullName: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.ScrapeResultDataAdapter(IDbContextFactory<NetScape.Modules.DAL.DatabaseContext>)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.ScrapeResultDataAdapter(IDbContextFactory(Of NetScape.Modules.DAL.DatabaseContext))
+  nameWithType: ScrapeResultDataAdapter.ScrapeResultDataAdapter(IDbContextFactory<DatabaseContext>)
+  nameWithType.vb: ScrapeResultDataAdapter.ScrapeResultDataAdapter(IDbContextFactory(Of DatabaseContext))
+- uid: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.#ctor*
+  name: ScrapeResultDataAdapter
+  href: api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.html#GoogleSearchScrape_DAL_DataAdapter_ScrapeResultDataAdapter__ctor_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.ScrapeResultDataAdapter
+  nameWithType: ScrapeResultDataAdapter.ScrapeResultDataAdapter
+- uid: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead(IQueryable{GoogleSearchScrape.Abstractions.Model.ScrapeResult})
+  name: FilterRead(IQueryable<ScrapeResult>)
+  href: api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.html#GoogleSearchScrape_DAL_DataAdapter_ScrapeResultDataAdapter_FilterRead_IQueryable_GoogleSearchScrape_Abstractions_Model_ScrapeResult__
+  commentId: M:GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead(IQueryable{GoogleSearchScrape.Abstractions.Model.ScrapeResult})
+  name.vb: FilterRead(IQueryable(Of ScrapeResult))
+  fullName: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead(IQueryable<GoogleSearchScrape.Abstractions.Model.ScrapeResult>)
+  fullName.vb: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead(IQueryable(Of GoogleSearchScrape.Abstractions.Model.ScrapeResult))
+  nameWithType: ScrapeResultDataAdapter.FilterRead(IQueryable<ScrapeResult>)
+  nameWithType.vb: ScrapeResultDataAdapter.FilterRead(IQueryable(Of ScrapeResult))
+- uid: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead*
+  name: FilterRead
+  href: api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.html#GoogleSearchScrape_DAL_DataAdapter_ScrapeResultDataAdapter_FilterRead_
+  commentId: Overload:GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead
+  isSpec: "True"
+  fullName: GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.FilterRead
+  nameWithType: ScrapeResultDataAdapter.FilterRead
+- uid: GoogleSearchScrape.Migrations
+  name: GoogleSearchScrape.Migrations
+  href: api/GoogleSearchScrape.Migrations.html
+  commentId: N:GoogleSearchScrape.Migrations
+  fullName: GoogleSearchScrape.Migrations
+  nameWithType: GoogleSearchScrape.Migrations
+- uid: GoogleSearchScrape.Migrations.AddInitial
+  name: AddInitial
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html
+  commentId: T:GoogleSearchScrape.Migrations.AddInitial
+  fullName: GoogleSearchScrape.Migrations.AddInitial
+  nameWithType: AddInitial
+- uid: GoogleSearchScrape.Migrations.AddInitial.BuildTargetModel(ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html#GoogleSearchScrape_Migrations_AddInitial_BuildTargetModel_ModelBuilder_
+  commentId: M:GoogleSearchScrape.Migrations.AddInitial.BuildTargetModel(ModelBuilder)
+  fullName: GoogleSearchScrape.Migrations.AddInitial.BuildTargetModel(ModelBuilder)
+  nameWithType: AddInitial.BuildTargetModel(ModelBuilder)
+- uid: GoogleSearchScrape.Migrations.AddInitial.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html#GoogleSearchScrape_Migrations_AddInitial_BuildTargetModel_
+  commentId: Overload:GoogleSearchScrape.Migrations.AddInitial.BuildTargetModel
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Migrations.AddInitial.BuildTargetModel
+  nameWithType: AddInitial.BuildTargetModel
+- uid: GoogleSearchScrape.Migrations.AddInitial.Down(MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html#GoogleSearchScrape_Migrations_AddInitial_Down_MigrationBuilder_
+  commentId: M:GoogleSearchScrape.Migrations.AddInitial.Down(MigrationBuilder)
+  fullName: GoogleSearchScrape.Migrations.AddInitial.Down(MigrationBuilder)
+  nameWithType: AddInitial.Down(MigrationBuilder)
+- uid: GoogleSearchScrape.Migrations.AddInitial.Down*
+  name: Down
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html#GoogleSearchScrape_Migrations_AddInitial_Down_
+  commentId: Overload:GoogleSearchScrape.Migrations.AddInitial.Down
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Migrations.AddInitial.Down
+  nameWithType: AddInitial.Down
+- uid: GoogleSearchScrape.Migrations.AddInitial.Up(MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html#GoogleSearchScrape_Migrations_AddInitial_Up_MigrationBuilder_
+  commentId: M:GoogleSearchScrape.Migrations.AddInitial.Up(MigrationBuilder)
+  fullName: GoogleSearchScrape.Migrations.AddInitial.Up(MigrationBuilder)
+  nameWithType: AddInitial.Up(MigrationBuilder)
+- uid: GoogleSearchScrape.Migrations.AddInitial.Up*
+  name: Up
+  href: api/GoogleSearchScrape.Migrations.AddInitial.html#GoogleSearchScrape_Migrations_AddInitial_Up_
+  commentId: Overload:GoogleSearchScrape.Migrations.AddInitial.Up
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Migrations.AddInitial.Up
+  nameWithType: AddInitial.Up
+- uid: GoogleSearchScrape.Pages
+  name: GoogleSearchScrape.Pages
+  href: api/GoogleSearchScrape.Pages.html
+  commentId: N:GoogleSearchScrape.Pages
+  fullName: GoogleSearchScrape.Pages
+  nameWithType: GoogleSearchScrape.Pages
+- uid: GoogleSearchScrape.Pages.ChartData
+  name: ChartData
+  href: api/GoogleSearchScrape.Pages.ChartData.html
+  commentId: T:GoogleSearchScrape.Pages.ChartData
+  fullName: GoogleSearchScrape.Pages.ChartData
+  nameWithType: ChartData
+- uid: GoogleSearchScrape.Pages.ChartData.Created
+  name: Created
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_Created
+  commentId: P:GoogleSearchScrape.Pages.ChartData.Created
+  fullName: GoogleSearchScrape.Pages.ChartData.Created
+  nameWithType: ChartData.Created
+- uid: GoogleSearchScrape.Pages.ChartData.Created*
+  name: Created
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_Created_
+  commentId: Overload:GoogleSearchScrape.Pages.ChartData.Created
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.ChartData.Created
+  nameWithType: ChartData.Created
+- uid: GoogleSearchScrape.Pages.ChartData.Index
+  name: Index
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_Index
+  commentId: P:GoogleSearchScrape.Pages.ChartData.Index
+  fullName: GoogleSearchScrape.Pages.ChartData.Index
+  nameWithType: ChartData.Index
+- uid: GoogleSearchScrape.Pages.ChartData.Index*
+  name: Index
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_Index_
+  commentId: Overload:GoogleSearchScrape.Pages.ChartData.Index
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.ChartData.Index
+  nameWithType: ChartData.Index
+- uid: GoogleSearchScrape.Pages.ChartData.Url
+  name: Url
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_Url
+  commentId: P:GoogleSearchScrape.Pages.ChartData.Url
+  fullName: GoogleSearchScrape.Pages.ChartData.Url
+  nameWithType: ChartData.Url
+- uid: GoogleSearchScrape.Pages.ChartData.Url*
+  name: Url
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_Url_
+  commentId: Overload:GoogleSearchScrape.Pages.ChartData.Url
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.ChartData.Url
+  nameWithType: ChartData.Url
+- uid: GoogleSearchScrape.Pages.ChartData.XLabel
+  name: XLabel
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_XLabel
+  commentId: P:GoogleSearchScrape.Pages.ChartData.XLabel
+  fullName: GoogleSearchScrape.Pages.ChartData.XLabel
+  nameWithType: ChartData.XLabel
+- uid: GoogleSearchScrape.Pages.ChartData.XLabel*
+  name: XLabel
+  href: api/GoogleSearchScrape.Pages.ChartData.html#GoogleSearchScrape_Pages_ChartData_XLabel_
+  commentId: Overload:GoogleSearchScrape.Pages.ChartData.XLabel
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.ChartData.XLabel
+  nameWithType: ChartData.XLabel
+- uid: GoogleSearchScrape.Pages.IndexBase
+  name: IndexBase
+  href: api/GoogleSearchScrape.Pages.IndexBase.html
+  commentId: T:GoogleSearchScrape.Pages.IndexBase
+  fullName: GoogleSearchScrape.Pages.IndexBase
+  nameWithType: IndexBase
+- uid: GoogleSearchScrape.Pages.IndexBase._config
+  name: _config
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase__config
+  commentId: F:GoogleSearchScrape.Pages.IndexBase._config
+  fullName: GoogleSearchScrape.Pages.IndexBase._config
+  nameWithType: IndexBase._config
+- uid: GoogleSearchScrape.Pages.IndexBase.ChartRef
+  name: ChartRef
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_ChartRef
+  commentId: P:GoogleSearchScrape.Pages.IndexBase.ChartRef
+  fullName: GoogleSearchScrape.Pages.IndexBase.ChartRef
+  nameWithType: IndexBase.ChartRef
+- uid: GoogleSearchScrape.Pages.IndexBase.ChartRef*
+  name: ChartRef
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_ChartRef_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.ChartRef
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.ChartRef
+  nameWithType: IndexBase.ChartRef
+- uid: GoogleSearchScrape.Pages.IndexBase.Dispose
+  name: Dispose()
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_Dispose
+  commentId: M:GoogleSearchScrape.Pages.IndexBase.Dispose
+  fullName: GoogleSearchScrape.Pages.IndexBase.Dispose()
+  nameWithType: IndexBase.Dispose()
+- uid: GoogleSearchScrape.Pages.IndexBase.Dispose*
+  name: Dispose
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_Dispose_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.Dispose
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.Dispose
+  nameWithType: IndexBase.Dispose
+- uid: GoogleSearchScrape.Pages.IndexBase.OnAfterRender(System.Boolean)
+  name: OnAfterRender(Boolean)
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_OnAfterRender_System_Boolean_
+  commentId: M:GoogleSearchScrape.Pages.IndexBase.OnAfterRender(System.Boolean)
+  fullName: GoogleSearchScrape.Pages.IndexBase.OnAfterRender(System.Boolean)
+  nameWithType: IndexBase.OnAfterRender(Boolean)
+- uid: GoogleSearchScrape.Pages.IndexBase.OnAfterRender*
+  name: OnAfterRender
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_OnAfterRender_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.OnAfterRender
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.OnAfterRender
+  nameWithType: IndexBase.OnAfterRender
+- uid: GoogleSearchScrape.Pages.IndexBase.OnInitializedAsync
+  name: OnInitializedAsync()
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_OnInitializedAsync
+  commentId: M:GoogleSearchScrape.Pages.IndexBase.OnInitializedAsync
+  fullName: GoogleSearchScrape.Pages.IndexBase.OnInitializedAsync()
+  nameWithType: IndexBase.OnInitializedAsync()
+- uid: GoogleSearchScrape.Pages.IndexBase.OnInitializedAsync*
+  name: OnInitializedAsync
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_OnInitializedAsync_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.OnInitializedAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.OnInitializedAsync
+  nameWithType: IndexBase.OnInitializedAsync
+- uid: GoogleSearchScrape.Pages.IndexBase.ScrapeResults
+  name: ScrapeResults
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_ScrapeResults
+  commentId: P:GoogleSearchScrape.Pages.IndexBase.ScrapeResults
+  fullName: GoogleSearchScrape.Pages.IndexBase.ScrapeResults
+  nameWithType: IndexBase.ScrapeResults
+- uid: GoogleSearchScrape.Pages.IndexBase.ScrapeResults*
+  name: ScrapeResults
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_ScrapeResults_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.ScrapeResults
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.ScrapeResults
+  nameWithType: IndexBase.ScrapeResults
+- uid: GoogleSearchScrape.Pages.IndexBase.StartRefereshTimer
+  name: StartRefereshTimer()
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_StartRefereshTimer
+  commentId: M:GoogleSearchScrape.Pages.IndexBase.StartRefereshTimer
+  fullName: GoogleSearchScrape.Pages.IndexBase.StartRefereshTimer()
+  nameWithType: IndexBase.StartRefereshTimer()
+- uid: GoogleSearchScrape.Pages.IndexBase.StartRefereshTimer*
+  name: StartRefereshTimer
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_StartRefereshTimer_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.StartRefereshTimer
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.StartRefereshTimer
+  nameWithType: IndexBase.StartRefereshTimer
+- uid: GoogleSearchScrape.Pages.IndexBase.StrategyResultsMap
+  name: StrategyResultsMap
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_StrategyResultsMap
+  commentId: P:GoogleSearchScrape.Pages.IndexBase.StrategyResultsMap
+  fullName: GoogleSearchScrape.Pages.IndexBase.StrategyResultsMap
+  nameWithType: IndexBase.StrategyResultsMap
+- uid: GoogleSearchScrape.Pages.IndexBase.StrategyResultsMap*
+  name: StrategyResultsMap
+  href: api/GoogleSearchScrape.Pages.IndexBase.html#GoogleSearchScrape_Pages_IndexBase_StrategyResultsMap_
+  commentId: Overload:GoogleSearchScrape.Pages.IndexBase.StrategyResultsMap
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.IndexBase.StrategyResultsMap
+  nameWithType: IndexBase.StrategyResultsMap
+- uid: GoogleSearchScrape.Pages.ScrapeRequestsBase
+  name: ScrapeRequestsBase
+  href: api/GoogleSearchScrape.Pages.ScrapeRequestsBase.html
+  commentId: T:GoogleSearchScrape.Pages.ScrapeRequestsBase
+  fullName: GoogleSearchScrape.Pages.ScrapeRequestsBase
+  nameWithType: ScrapeRequestsBase
+- uid: GoogleSearchScrape.Pages.ScrapeRequestsBase.OnInitialized
+  name: OnInitialized()
+  href: api/GoogleSearchScrape.Pages.ScrapeRequestsBase.html#GoogleSearchScrape_Pages_ScrapeRequestsBase_OnInitialized
+  commentId: M:GoogleSearchScrape.Pages.ScrapeRequestsBase.OnInitialized
+  fullName: GoogleSearchScrape.Pages.ScrapeRequestsBase.OnInitialized()
+  nameWithType: ScrapeRequestsBase.OnInitialized()
+- uid: GoogleSearchScrape.Pages.ScrapeRequestsBase.OnInitialized*
+  name: OnInitialized
+  href: api/GoogleSearchScrape.Pages.ScrapeRequestsBase.html#GoogleSearchScrape_Pages_ScrapeRequestsBase_OnInitialized_
+  commentId: Overload:GoogleSearchScrape.Pages.ScrapeRequestsBase.OnInitialized
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.ScrapeRequestsBase.OnInitialized
+  nameWithType: ScrapeRequestsBase.OnInitialized
+- uid: GoogleSearchScrape.Pages.ScrapeRequestsBase.StrategyNames
+  name: StrategyNames
+  href: api/GoogleSearchScrape.Pages.ScrapeRequestsBase.html#GoogleSearchScrape_Pages_ScrapeRequestsBase_StrategyNames
+  commentId: P:GoogleSearchScrape.Pages.ScrapeRequestsBase.StrategyNames
+  fullName: GoogleSearchScrape.Pages.ScrapeRequestsBase.StrategyNames
+  nameWithType: ScrapeRequestsBase.StrategyNames
+- uid: GoogleSearchScrape.Pages.ScrapeRequestsBase.StrategyNames*
+  name: StrategyNames
+  href: api/GoogleSearchScrape.Pages.ScrapeRequestsBase.html#GoogleSearchScrape_Pages_ScrapeRequestsBase_StrategyNames_
+  commentId: Overload:GoogleSearchScrape.Pages.ScrapeRequestsBase.StrategyNames
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Pages.ScrapeRequestsBase.StrategyNames
+  nameWithType: ScrapeRequestsBase.StrategyNames
+- uid: GoogleSearchScrape.Program
+  name: Program
+  href: api/GoogleSearchScrape.Program.html
+  commentId: T:GoogleSearchScrape.Program
+  fullName: GoogleSearchScrape.Program
+  nameWithType: Program
+- uid: GoogleSearchScrape.Program.CreateHostBuilder(System.String[])
+  name: CreateHostBuilder(String[])
+  href: api/GoogleSearchScrape.Program.html#GoogleSearchScrape_Program_CreateHostBuilder_System_String___
+  commentId: M:GoogleSearchScrape.Program.CreateHostBuilder(System.String[])
+  name.vb: CreateHostBuilder(String())
+  fullName: GoogleSearchScrape.Program.CreateHostBuilder(System.String[])
+  fullName.vb: GoogleSearchScrape.Program.CreateHostBuilder(System.String())
+  nameWithType: Program.CreateHostBuilder(String[])
+  nameWithType.vb: Program.CreateHostBuilder(String())
+- uid: GoogleSearchScrape.Program.CreateHostBuilder*
+  name: CreateHostBuilder
+  href: api/GoogleSearchScrape.Program.html#GoogleSearchScrape_Program_CreateHostBuilder_
+  commentId: Overload:GoogleSearchScrape.Program.CreateHostBuilder
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Program.CreateHostBuilder
+  nameWithType: Program.CreateHostBuilder
+- uid: GoogleSearchScrape.Program.Main(System.String[])
+  name: Main(String[])
+  href: api/GoogleSearchScrape.Program.html#GoogleSearchScrape_Program_Main_System_String___
+  commentId: M:GoogleSearchScrape.Program.Main(System.String[])
+  name.vb: Main(String())
+  fullName: GoogleSearchScrape.Program.Main(System.String[])
+  fullName.vb: GoogleSearchScrape.Program.Main(System.String())
+  nameWithType: Program.Main(String[])
+  nameWithType.vb: Program.Main(String())
+- uid: GoogleSearchScrape.Program.Main*
+  name: Main
+  href: api/GoogleSearchScrape.Program.html#GoogleSearchScrape_Program_Main_
+  commentId: Overload:GoogleSearchScrape.Program.Main
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Program.Main
+  nameWithType: Program.Main
+- uid: GoogleSearchScrape.Scrapers
+  name: GoogleSearchScrape.Scrapers
+  href: api/GoogleSearchScrape.Scrapers.html
+  commentId: N:GoogleSearchScrape.Scrapers
+  fullName: GoogleSearchScrape.Scrapers
+  nameWithType: GoogleSearchScrape.Scrapers
+- uid: GoogleSearchScrape.Scrapers.Extensions
+  name: GoogleSearchScrape.Scrapers.Extensions
+  href: api/GoogleSearchScrape.Scrapers.Extensions.html
+  commentId: N:GoogleSearchScrape.Scrapers.Extensions
+  fullName: GoogleSearchScrape.Scrapers.Extensions
+  nameWithType: GoogleSearchScrape.Scrapers.Extensions
+- uid: GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions
+  name: ScraperExtensions
+  href: api/GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.html
+  commentId: T:GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions
+  fullName: GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions
+  nameWithType: ScraperExtensions
+- uid: GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.AddScraperService(IServiceCollection)
+  name: AddScraperService(IServiceCollection)
+  href: api/GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.html#GoogleSearchScrape_Scrapers_Extensions_ScraperExtensions_AddScraperService_IServiceCollection_
+  commentId: M:GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.AddScraperService(IServiceCollection)
+  fullName: GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.AddScraperService(IServiceCollection)
+  nameWithType: ScraperExtensions.AddScraperService(IServiceCollection)
+- uid: GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.AddScraperService*
+  name: AddScraperService
+  href: api/GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.html#GoogleSearchScrape_Scrapers_Extensions_ScraperExtensions_AddScraperService_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.AddScraperService
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.AddScraperService
+  nameWithType: ScraperExtensions.AddScraperService
+- uid: GoogleSearchScrape.Scrapers.Handlers
+  name: GoogleSearchScrape.Scrapers.Handlers
+  href: api/GoogleSearchScrape.Scrapers.Handlers.html
+  commentId: N:GoogleSearchScrape.Scrapers.Handlers
+  fullName: GoogleSearchScrape.Scrapers.Handlers
+  nameWithType: GoogleSearchScrape.Scrapers.Handlers
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler
+  name: ScrapeRequestHandler
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html
+  commentId: T:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler
+  nameWithType: ScrapeRequestHandler
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.#ctor(GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy[])
+  name: ScrapeRequestHandler(IScrapeRequestStrategy[])
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_ScrapeRequestHandler__ctor_GoogleSearchScrape_Abstractions_Interfaces_IScrapeRequestStrategy___
+  commentId: M:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.#ctor(GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy[])
+  name.vb: ScrapeRequestHandler(IScrapeRequestStrategy())
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.ScrapeRequestHandler(GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy[])
+  fullName.vb: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.ScrapeRequestHandler(GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy())
+  nameWithType: ScrapeRequestHandler.ScrapeRequestHandler(IScrapeRequestStrategy[])
+  nameWithType.vb: ScrapeRequestHandler.ScrapeRequestHandler(IScrapeRequestStrategy())
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.#ctor*
+  name: ScrapeRequestHandler
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_ScrapeRequestHandler__ctor_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.ScrapeRequestHandler
+  nameWithType: ScrapeRequestHandler.ScrapeRequestHandler
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,List{GoogleSearchScrape.Abstractions.Model.ScrapeResult})
+  name: Filter(ScrapeRequest, List<ScrapeResult>)
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_ScrapeRequestHandler_Filter_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_List_GoogleSearchScrape_Abstractions_Model_ScrapeResult__
+  commentId: M:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,List{GoogleSearchScrape.Abstractions.Model.ScrapeResult})
+  name.vb: Filter(ScrapeRequest, List(Of ScrapeResult))
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter(GoogleSearchScrape.Abstractions.Model.ScrapeRequest, List<GoogleSearchScrape.Abstractions.Model.ScrapeResult>)
+  fullName.vb: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter(GoogleSearchScrape.Abstractions.Model.ScrapeRequest, List(Of GoogleSearchScrape.Abstractions.Model.ScrapeResult))
+  nameWithType: ScrapeRequestHandler.Filter(ScrapeRequest, List<ScrapeResult>)
+  nameWithType.vb: ScrapeRequestHandler.Filter(ScrapeRequest, List(Of ScrapeResult))
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter*
+  name: Filter
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_ScrapeRequestHandler_Filter_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.Filter
+  nameWithType: ScrapeRequestHandler.Filter
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.HandleAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,DateTimeOffset)
+  name: HandleAsync(ScrapeRequest, DateTimeOffset)
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_ScrapeRequestHandler_HandleAsync_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_DateTimeOffset_
+  commentId: M:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.HandleAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,DateTimeOffset)
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.HandleAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest, DateTimeOffset)
+  nameWithType: ScrapeRequestHandler.HandleAsync(ScrapeRequest, DateTimeOffset)
+- uid: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.HandleAsync*
+  name: HandleAsync
+  href: api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_ScrapeRequestHandler_HandleAsync_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.HandleAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.HandleAsync
+  nameWithType: ScrapeRequestHandler.HandleAsync
+- uid: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler
+  name: TimedScrapeRequestHandler
+  href: api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.html
+  commentId: T:GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler
+  fullName: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler
+  nameWithType: TimedScrapeRequestHandler
+- uid: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.#ctor(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler{GoogleSearchScrape.Abstractions.Model.ScrapeRequest})
+  name: TimedScrapeRequestHandler(IScrapeHandler<ScrapeRequest>)
+  href: api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_TimedScrapeRequestHandler__ctor_GoogleSearchScrape_Abstractions_Interfaces_IScrapeHandler_GoogleSearchScrape_Abstractions_Model_ScrapeRequest__
+  commentId: M:GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.#ctor(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler{GoogleSearchScrape.Abstractions.Model.ScrapeRequest})
+  name.vb: TimedScrapeRequestHandler(IScrapeHandler(Of ScrapeRequest))
+  fullName: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.TimedScrapeRequestHandler(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler<GoogleSearchScrape.Abstractions.Model.ScrapeRequest>)
+  fullName.vb: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.TimedScrapeRequestHandler(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler(Of GoogleSearchScrape.Abstractions.Model.ScrapeRequest))
+  nameWithType: TimedScrapeRequestHandler.TimedScrapeRequestHandler(IScrapeHandler<ScrapeRequest>)
+  nameWithType.vb: TimedScrapeRequestHandler.TimedScrapeRequestHandler(IScrapeHandler(Of ScrapeRequest))
+- uid: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.#ctor*
+  name: TimedScrapeRequestHandler
+  href: api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_TimedScrapeRequestHandler__ctor_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.TimedScrapeRequestHandler
+  nameWithType: TimedScrapeRequestHandler.TimedScrapeRequestHandler
+- uid: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.HandleAsync(GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest,DateTimeOffset)
+  name: HandleAsync(TimedScrapeRequest, DateTimeOffset)
+  href: api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_TimedScrapeRequestHandler_HandleAsync_GoogleSearchScrape_Abstractions_Model_TimedScrapeRequest_DateTimeOffset_
+  commentId: M:GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.HandleAsync(GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest,DateTimeOffset)
+  fullName: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.HandleAsync(GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest, DateTimeOffset)
+  nameWithType: TimedScrapeRequestHandler.HandleAsync(TimedScrapeRequest, DateTimeOffset)
+- uid: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.HandleAsync*
+  name: HandleAsync
+  href: api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.html#GoogleSearchScrape_Scrapers_Handlers_TimedScrapeRequestHandler_HandleAsync_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.HandleAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.HandleAsync
+  nameWithType: TimedScrapeRequestHandler.HandleAsync
+- uid: GoogleSearchScrape.Scrapers.ScraperModule
+  name: ScraperModule
+  href: api/GoogleSearchScrape.Scrapers.ScraperModule.html
+  commentId: T:GoogleSearchScrape.Scrapers.ScraperModule
+  fullName: GoogleSearchScrape.Scrapers.ScraperModule
+  nameWithType: ScraperModule
+- uid: GoogleSearchScrape.Scrapers.ScraperModule.Load(ContainerBuilder)
+  name: Load(ContainerBuilder)
+  href: api/GoogleSearchScrape.Scrapers.ScraperModule.html#GoogleSearchScrape_Scrapers_ScraperModule_Load_ContainerBuilder_
+  commentId: M:GoogleSearchScrape.Scrapers.ScraperModule.Load(ContainerBuilder)
+  fullName: GoogleSearchScrape.Scrapers.ScraperModule.Load(ContainerBuilder)
+  nameWithType: ScraperModule.Load(ContainerBuilder)
+- uid: GoogleSearchScrape.Scrapers.ScraperModule.Load*
+  name: Load
+  href: api/GoogleSearchScrape.Scrapers.ScraperModule.html#GoogleSearchScrape_Scrapers_ScraperModule_Load_
+  commentId: Overload:GoogleSearchScrape.Scrapers.ScraperModule.Load
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.ScraperModule.Load
+  nameWithType: ScraperModule.Load
+- uid: GoogleSearchScrape.Scrapers.Services
+  name: GoogleSearchScrape.Scrapers.Services
+  href: api/GoogleSearchScrape.Scrapers.Services.html
+  commentId: N:GoogleSearchScrape.Scrapers.Services
+  fullName: GoogleSearchScrape.Scrapers.Services
+  nameWithType: GoogleSearchScrape.Scrapers.Services
+- uid: GoogleSearchScrape.Scrapers.Services.ScraperService
+  name: ScraperService
+  href: api/GoogleSearchScrape.Scrapers.Services.ScraperService.html
+  commentId: T:GoogleSearchScrape.Scrapers.Services.ScraperService
+  fullName: GoogleSearchScrape.Scrapers.Services.ScraperService
+  nameWithType: ScraperService
+- uid: GoogleSearchScrape.Scrapers.Services.ScraperService.#ctor(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler{GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest},IDbContextFactory{NetScape.Modules.DAL.DatabaseContext})
+  name: ScraperService(IScrapeHandler<TimedScrapeRequest>, IDbContextFactory<DatabaseContext>)
+  href: api/GoogleSearchScrape.Scrapers.Services.ScraperService.html#GoogleSearchScrape_Scrapers_Services_ScraperService__ctor_GoogleSearchScrape_Abstractions_Interfaces_IScrapeHandler_GoogleSearchScrape_Abstractions_Model_TimedScrapeRequest__IDbContextFactory_NetScape_Modules_DAL_DatabaseContext__
+  commentId: M:GoogleSearchScrape.Scrapers.Services.ScraperService.#ctor(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler{GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest},IDbContextFactory{NetScape.Modules.DAL.DatabaseContext})
+  name.vb: ScraperService(IScrapeHandler(Of TimedScrapeRequest), IDbContextFactory(Of DatabaseContext))
+  fullName: GoogleSearchScrape.Scrapers.Services.ScraperService.ScraperService(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler<GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest>, IDbContextFactory<NetScape.Modules.DAL.DatabaseContext>)
+  fullName.vb: GoogleSearchScrape.Scrapers.Services.ScraperService.ScraperService(GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler(Of GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest), IDbContextFactory(Of NetScape.Modules.DAL.DatabaseContext))
+  nameWithType: ScraperService.ScraperService(IScrapeHandler<TimedScrapeRequest>, IDbContextFactory<DatabaseContext>)
+  nameWithType.vb: ScraperService.ScraperService(IScrapeHandler(Of TimedScrapeRequest), IDbContextFactory(Of DatabaseContext))
+- uid: GoogleSearchScrape.Scrapers.Services.ScraperService.#ctor*
+  name: ScraperService
+  href: api/GoogleSearchScrape.Scrapers.Services.ScraperService.html#GoogleSearchScrape_Scrapers_Services_ScraperService__ctor_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Services.ScraperService.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Services.ScraperService.ScraperService
+  nameWithType: ScraperService.ScraperService
+- uid: GoogleSearchScrape.Scrapers.Services.ScraperService.ExecuteAsync(CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/GoogleSearchScrape.Scrapers.Services.ScraperService.html#GoogleSearchScrape_Scrapers_Services_ScraperService_ExecuteAsync_CancellationToken_
+  commentId: M:GoogleSearchScrape.Scrapers.Services.ScraperService.ExecuteAsync(CancellationToken)
+  fullName: GoogleSearchScrape.Scrapers.Services.ScraperService.ExecuteAsync(CancellationToken)
+  nameWithType: ScraperService.ExecuteAsync(CancellationToken)
+- uid: GoogleSearchScrape.Scrapers.Services.ScraperService.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/GoogleSearchScrape.Scrapers.Services.ScraperService.html#GoogleSearchScrape_Scrapers_Services_ScraperService_ExecuteAsync_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Services.ScraperService.ExecuteAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Services.ScraperService.ExecuteAsync
+  nameWithType: ScraperService.ExecuteAsync
+- uid: GoogleSearchScrape.Scrapers.Strategies
+  name: GoogleSearchScrape.Scrapers.Strategies
+  href: api/GoogleSearchScrape.Scrapers.Strategies.html
+  commentId: N:GoogleSearchScrape.Scrapers.Strategies
+  fullName: GoogleSearchScrape.Scrapers.Strategies
+  nameWithType: GoogleSearchScrape.Scrapers.Strategies
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy
+  name: BingSearchScraperStrategy
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html
+  commentId: T:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy
+  nameWithType: BingSearchScraperStrategy
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  name: FormatUrl(ScrapeRequest)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_FormatUrl_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  nameWithType: BingSearchScraperStrategy.FormatUrl(ScrapeRequest)
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.FormatUrl*
+  name: FormatUrl
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_FormatUrl_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.FormatUrl
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.FormatUrl
+  nameWithType: BingSearchScraperStrategy.FormatUrl
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,HtmlDocument)
+  name: Get(ScrapeRequest, HtmlDocument)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_Get_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_HtmlDocument_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,HtmlDocument)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest, HtmlDocument)
+  nameWithType: BingSearchScraperStrategy.Get(ScrapeRequest, HtmlDocument)
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Get*
+  name: Get
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_Get_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Get
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Get
+  nameWithType: BingSearchScraperStrategy.Get
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Name
+  name: Name
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_Name
+  commentId: P:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Name
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Name
+  nameWithType: BingSearchScraperStrategy.Name
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Name*
+  name: Name
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_Name_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Name
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Name
+  nameWithType: BingSearchScraperStrategy.Name
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Url
+  name: Url
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_Url
+  commentId: P:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Url
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Url
+  nameWithType: BingSearchScraperStrategy.Url
+- uid: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Url*
+  name: Url
+  href: api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_BingSearchScraperStrategy_Url_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Url
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.Url
+  nameWithType: BingSearchScraperStrategy.Url
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy
+  name: GoogleSearchScraperStrategy
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html
+  commentId: T:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy
+  nameWithType: GoogleSearchScraperStrategy
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  name: FormatUrl(ScrapeRequest)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_FormatUrl_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  nameWithType: GoogleSearchScraperStrategy.FormatUrl(ScrapeRequest)
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.FormatUrl*
+  name: FormatUrl
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_FormatUrl_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.FormatUrl
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.FormatUrl
+  nameWithType: GoogleSearchScraperStrategy.FormatUrl
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,HtmlDocument)
+  name: Get(ScrapeRequest, HtmlDocument)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_Get_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_HtmlDocument_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,HtmlDocument)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest, HtmlDocument)
+  nameWithType: GoogleSearchScraperStrategy.Get(ScrapeRequest, HtmlDocument)
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Get*
+  name: Get
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_Get_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Get
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Get
+  nameWithType: GoogleSearchScraperStrategy.Get
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Name
+  name: Name
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_Name
+  commentId: P:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Name
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Name
+  nameWithType: GoogleSearchScraperStrategy.Name
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Name*
+  name: Name
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_Name_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Name
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Name
+  nameWithType: GoogleSearchScraperStrategy.Name
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Url
+  name: Url
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_Url
+  commentId: P:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Url
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Url
+  nameWithType: GoogleSearchScraperStrategy.Url
+- uid: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Url*
+  name: Url
+  href: api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_GoogleSearchScraperStrategy_Url_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Url
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.Url
+  nameWithType: GoogleSearchScraperStrategy.Url
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy
+  name: HttpScraperStrategy
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html
+  commentId: T:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy
+  nameWithType: HttpScraperStrategy
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  name: FormatUrl(ScrapeRequest)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_FormatUrl_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.FormatUrl(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  nameWithType: HttpScraperStrategy.FormatUrl(ScrapeRequest)
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.FormatUrl*
+  name: FormatUrl
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_FormatUrl_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.FormatUrl
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.FormatUrl
+  nameWithType: HttpScraperStrategy.FormatUrl
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,HtmlDocument)
+  name: Get(ScrapeRequest, HtmlDocument)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_Get_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_HtmlDocument_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest,HtmlDocument)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Get(GoogleSearchScrape.Abstractions.Model.ScrapeRequest, HtmlDocument)
+  nameWithType: HttpScraperStrategy.Get(ScrapeRequest, HtmlDocument)
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Get*
+  name: Get
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_Get_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Get
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Get
+  nameWithType: HttpScraperStrategy.Get
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.GetAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  name: GetAsync(ScrapeRequest)
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_GetAsync_GoogleSearchScrape_Abstractions_Model_ScrapeRequest_
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.GetAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.GetAsync(GoogleSearchScrape.Abstractions.Model.ScrapeRequest)
+  nameWithType: HttpScraperStrategy.GetAsync(ScrapeRequest)
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.GetAsync*
+  name: GetAsync
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_GetAsync_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.GetAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.GetAsync
+  nameWithType: HttpScraperStrategy.GetAsync
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Name
+  name: Name
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_Name
+  commentId: P:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Name
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Name
+  nameWithType: HttpScraperStrategy.Name
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Name*
+  name: Name
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_Name_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Name
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Name
+  nameWithType: HttpScraperStrategy.Name
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Url
+  name: Url
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_Url
+  commentId: P:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Url
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Url
+  nameWithType: HttpScraperStrategy.Url
+- uid: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Url*
+  name: Url
+  href: api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html#GoogleSearchScrape_Scrapers_Strategies_HttpScraperStrategy_Url_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Url
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.Url
+  nameWithType: HttpScraperStrategy.Url
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test
+  name: GoogleSearchScrape.Scrapers.Strategies.Test
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.html
+  commentId: N:GoogleSearchScrape.Scrapers.Strategies.Test
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test
+  nameWithType: GoogleSearchScrape.Scrapers.Strategies.Test
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests
+  name: GoogleSearchScraperStrategyTests
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html
+  commentId: T:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests
+  nameWithType: GoogleSearchScraperStrategyTests
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.#ctor
+  name: GoogleSearchScraperStrategyTests()
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html#GoogleSearchScrape_Scrapers_Strategies_Test_GoogleSearchScraperStrategyTests__ctor
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.#ctor
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.GoogleSearchScraperStrategyTests()
+  nameWithType: GoogleSearchScraperStrategyTests.GoogleSearchScraperStrategyTests()
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.#ctor*
+  name: GoogleSearchScraperStrategyTests
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html#GoogleSearchScrape_Scrapers_Strategies_Test_GoogleSearchScraperStrategyTests__ctor_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.GoogleSearchScraperStrategyTests
+  nameWithType: GoogleSearchScraperStrategyTests.GoogleSearchScraperStrategyTests
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults
+  name: CanScrapeGoogleSearchResults()
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html#GoogleSearchScrape_Scrapers_Strategies_Test_GoogleSearchScraperStrategyTests_CanScrapeGoogleSearchResults
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults()
+  nameWithType: GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults()
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults*
+  name: CanScrapeGoogleSearchResults
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html#GoogleSearchScrape_Scrapers_Strategies_Test_GoogleSearchScraperStrategyTests_CanScrapeGoogleSearchResults_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults
+  nameWithType: GoogleSearchScraperStrategyTests.CanScrapeGoogleSearchResults
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults
+  name: StrategyCanReturnEmptyListWhenNoResults()
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html#GoogleSearchScrape_Scrapers_Strategies_Test_GoogleSearchScraperStrategyTests_StrategyCanReturnEmptyListWhenNoResults
+  commentId: M:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults()
+  nameWithType: GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults()
+- uid: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults*
+  name: StrategyCanReturnEmptyListWhenNoResults
+  href: api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html#GoogleSearchScrape_Scrapers_Strategies_Test_GoogleSearchScraperStrategyTests_StrategyCanReturnEmptyListWhenNoResults_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults
+  nameWithType: GoogleSearchScraperStrategyTests.StrategyCanReturnEmptyListWhenNoResults
+- uid: GoogleSearchScrape.Scrapers.Test.Extensions
+  name: GoogleSearchScrape.Scrapers.Test.Extensions
+  href: api/GoogleSearchScrape.Scrapers.Test.Extensions.html
+  commentId: N:GoogleSearchScrape.Scrapers.Test.Extensions
+  fullName: GoogleSearchScrape.Scrapers.Test.Extensions
+  nameWithType: GoogleSearchScrape.Scrapers.Test.Extensions
+- uid: GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests
+  name: ScraperExtensionsTests
+  href: api/GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.html
+  commentId: T:GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests
+  fullName: GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests
+  nameWithType: ScraperExtensionsTests
+- uid: GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.CanAddScraperService
+  name: CanAddScraperService()
+  href: api/GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.html#GoogleSearchScrape_Scrapers_Test_Extensions_ScraperExtensionsTests_CanAddScraperService
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.CanAddScraperService
+  fullName: GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.CanAddScraperService()
+  nameWithType: ScraperExtensionsTests.CanAddScraperService()
+- uid: GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.CanAddScraperService*
+  name: CanAddScraperService
+  href: api/GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.html#GoogleSearchScrape_Scrapers_Test_Extensions_ScraperExtensionsTests_CanAddScraperService_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.CanAddScraperService
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.CanAddScraperService
+  nameWithType: ScraperExtensionsTests.CanAddScraperService
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers
+  name: GoogleSearchScrape.Scrapers.Test.Handlers
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.html
+  commentId: N:GoogleSearchScrape.Scrapers.Test.Handlers
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers
+  nameWithType: GoogleSearchScrape.Scrapers.Test.Handlers
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests
+  name: ScrapeRequestHandlerTests
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html
+  commentId: T:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests
+  nameWithType: ScrapeRequestHandlerTests
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.#ctor
+  name: ScrapeRequestHandlerTests()
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_ScrapeRequestHandlerTests__ctor
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.#ctor
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.ScrapeRequestHandlerTests()
+  nameWithType: ScrapeRequestHandlerTests.ScrapeRequestHandlerTests()
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.#ctor*
+  name: ScrapeRequestHandlerTests
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_ScrapeRequestHandlerTests__ctor_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.ScrapeRequestHandlerTests
+  nameWithType: ScrapeRequestHandlerTests.ScrapeRequestHandlerTests
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanAttachDatesOnRequest
+  name: CanAttachDatesOnRequest()
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_ScrapeRequestHandlerTests_CanAttachDatesOnRequest
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanAttachDatesOnRequest
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanAttachDatesOnRequest()
+  nameWithType: ScrapeRequestHandlerTests.CanAttachDatesOnRequest()
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanAttachDatesOnRequest*
+  name: CanAttachDatesOnRequest
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_ScrapeRequestHandlerTests_CanAttachDatesOnRequest_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanAttachDatesOnRequest
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanAttachDatesOnRequest
+  nameWithType: ScrapeRequestHandlerTests.CanAttachDatesOnRequest
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanFilterTargetUrls
+  name: CanFilterTargetUrls()
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_ScrapeRequestHandlerTests_CanFilterTargetUrls
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanFilterTargetUrls
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanFilterTargetUrls()
+  nameWithType: ScrapeRequestHandlerTests.CanFilterTargetUrls()
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanFilterTargetUrls*
+  name: CanFilterTargetUrls
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_ScrapeRequestHandlerTests_CanFilterTargetUrls_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanFilterTargetUrls
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.CanFilterTargetUrls
+  nameWithType: ScrapeRequestHandlerTests.CanFilterTargetUrls
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests
+  name: TimedScrapeRequestHandlerTests
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html
+  commentId: T:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests
+  nameWithType: TimedScrapeRequestHandlerTests
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.#ctor
+  name: TimedScrapeRequestHandlerTests()
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_TimedScrapeRequestHandlerTests__ctor
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.#ctor
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.TimedScrapeRequestHandlerTests()
+  nameWithType: TimedScrapeRequestHandlerTests.TimedScrapeRequestHandlerTests()
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.#ctor*
+  name: TimedScrapeRequestHandlerTests
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_TimedScrapeRequestHandlerTests__ctor_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.TimedScrapeRequestHandlerTests
+  nameWithType: TimedScrapeRequestHandlerTests.TimedScrapeRequestHandlerTests
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanBlockEarlyRequests
+  name: CanBlockEarlyRequests()
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_TimedScrapeRequestHandlerTests_CanBlockEarlyRequests
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanBlockEarlyRequests
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanBlockEarlyRequests()
+  nameWithType: TimedScrapeRequestHandlerTests.CanBlockEarlyRequests()
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanBlockEarlyRequests*
+  name: CanBlockEarlyRequests
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_TimedScrapeRequestHandlerTests_CanBlockEarlyRequests_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanBlockEarlyRequests
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanBlockEarlyRequests
+  nameWithType: TimedScrapeRequestHandlerTests.CanBlockEarlyRequests
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanExecuteRequest
+  name: CanExecuteRequest()
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_TimedScrapeRequestHandlerTests_CanExecuteRequest
+  commentId: M:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanExecuteRequest
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanExecuteRequest()
+  nameWithType: TimedScrapeRequestHandlerTests.CanExecuteRequest()
+- uid: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanExecuteRequest*
+  name: CanExecuteRequest
+  href: api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html#GoogleSearchScrape_Scrapers_Test_Handlers_TimedScrapeRequestHandlerTests_CanExecuteRequest_
+  commentId: Overload:GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanExecuteRequest
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.CanExecuteRequest
+  nameWithType: TimedScrapeRequestHandlerTests.CanExecuteRequest
+- uid: GoogleSearchScrape.Shared
+  name: GoogleSearchScrape.Shared
+  href: api/GoogleSearchScrape.Shared.html
+  commentId: N:GoogleSearchScrape.Shared
+  fullName: GoogleSearchScrape.Shared
+  nameWithType: GoogleSearchScrape.Shared
+- uid: GoogleSearchScrape.Shared.BaseGridView`2
+  name: BaseGridView<TItem, TKey>
+  href: api/GoogleSearchScrape.Shared.BaseGridView-2.html
+  commentId: T:GoogleSearchScrape.Shared.BaseGridView`2
+  name.vb: BaseGridView(Of TItem, TKey)
+  fullName: GoogleSearchScrape.Shared.BaseGridView<TItem, TKey>
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridView(Of TItem, TKey)
+  nameWithType: BaseGridView<TItem, TKey>
+  nameWithType.vb: BaseGridView(Of TItem, TKey)
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2
+  name: BaseGridViewBase<TItem, TKey>
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html
+  commentId: T:GoogleSearchScrape.Shared.BaseGridViewBase`2
+  name.vb: BaseGridViewBase(Of TItem, TKey)
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey)
+  nameWithType: BaseGridViewBase<TItem, TKey>
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey)
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.DataAdapterType
+  name: DataAdapterType
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_DataAdapterType
+  commentId: P:GoogleSearchScrape.Shared.BaseGridViewBase`2.DataAdapterType
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.DataAdapterType
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).DataAdapterType
+  nameWithType: BaseGridViewBase<TItem, TKey>.DataAdapterType
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).DataAdapterType
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.DataAdapterType*
+  name: DataAdapterType
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_DataAdapterType_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.DataAdapterType
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.DataAdapterType
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).DataAdapterType
+  nameWithType: BaseGridViewBase<TItem, TKey>.DataAdapterType
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).DataAdapterType
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.DataManager
+  name: DataManager
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_DataManager
+  commentId: P:GoogleSearchScrape.Shared.BaseGridViewBase`2.DataManager
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.DataManager
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).DataManager
+  nameWithType: BaseGridViewBase<TItem, TKey>.DataManager
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).DataManager
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.DataManager*
+  name: DataManager
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_DataManager_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.DataManager
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.DataManager
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).DataManager
+  nameWithType: BaseGridViewBase<TItem, TKey>.DataManager
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).DataManager
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.DbContextFactory
+  name: DbContextFactory
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_DbContextFactory
+  commentId: P:GoogleSearchScrape.Shared.BaseGridViewBase`2.DbContextFactory
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.DbContextFactory
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).DbContextFactory
+  nameWithType: BaseGridViewBase<TItem, TKey>.DbContextFactory
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).DbContextFactory
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.DbContextFactory*
+  name: DbContextFactory
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_DbContextFactory_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.DbContextFactory
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.DbContextFactory
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).DbContextFactory
+  nameWithType: BaseGridViewBase<TItem, TKey>.DbContextFactory
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).DbContextFactory
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.ExcelExportToolbarItem
+  name: ExcelExportToolbarItem
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_ExcelExportToolbarItem
+  commentId: F:GoogleSearchScrape.Shared.BaseGridViewBase`2.ExcelExportToolbarItem
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.ExcelExportToolbarItem
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).ExcelExportToolbarItem
+  nameWithType: BaseGridViewBase<TItem, TKey>.ExcelExportToolbarItem
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).ExcelExportToolbarItem
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.GridColumns
+  name: GridColumns
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_GridColumns
+  commentId: P:GoogleSearchScrape.Shared.BaseGridViewBase`2.GridColumns
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.GridColumns
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).GridColumns
+  nameWithType: BaseGridViewBase<TItem, TKey>.GridColumns
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).GridColumns
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.GridColumns*
+  name: GridColumns
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_GridColumns_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.GridColumns
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.GridColumns
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).GridColumns
+  nameWithType: BaseGridViewBase<TItem, TKey>.GridColumns
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).GridColumns
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.Id
+  name: Id
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_Id
+  commentId: P:GoogleSearchScrape.Shared.BaseGridViewBase`2.Id
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.Id
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).Id
+  nameWithType: BaseGridViewBase<TItem, TKey>.Id
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).Id
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.Id*
+  name: Id
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_Id_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.Id
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.Id
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).Id
+  nameWithType: BaseGridViewBase<TItem, TKey>.Id
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).Id
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.OnActionBegin(ActionEventArgs{`0})
+  name: OnActionBegin(ActionEventArgs<TItem>)
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_OnActionBegin_ActionEventArgs__0__
+  commentId: M:GoogleSearchScrape.Shared.BaseGridViewBase`2.OnActionBegin(ActionEventArgs{`0})
+  name.vb: OnActionBegin(ActionEventArgs(Of TItem))
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.OnActionBegin(ActionEventArgs<TItem>)
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).OnActionBegin(ActionEventArgs(Of TItem))
+  nameWithType: BaseGridViewBase<TItem, TKey>.OnActionBegin(ActionEventArgs<TItem>)
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).OnActionBegin(ActionEventArgs(Of TItem))
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.OnActionBegin*
+  name: OnActionBegin
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_OnActionBegin_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.OnActionBegin
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.OnActionBegin
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).OnActionBegin
+  nameWithType: BaseGridViewBase<TItem, TKey>.OnActionBegin
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).OnActionBegin
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.OnBatchDelete(BeforeBatchDeleteArgs{`0})
+  name: OnBatchDelete(BeforeBatchDeleteArgs<TItem>)
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_OnBatchDelete_BeforeBatchDeleteArgs__0__
+  commentId: M:GoogleSearchScrape.Shared.BaseGridViewBase`2.OnBatchDelete(BeforeBatchDeleteArgs{`0})
+  name.vb: OnBatchDelete(BeforeBatchDeleteArgs(Of TItem))
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.OnBatchDelete(BeforeBatchDeleteArgs<TItem>)
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).OnBatchDelete(BeforeBatchDeleteArgs(Of TItem))
+  nameWithType: BaseGridViewBase<TItem, TKey>.OnBatchDelete(BeforeBatchDeleteArgs<TItem>)
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).OnBatchDelete(BeforeBatchDeleteArgs(Of TItem))
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.OnBatchDelete*
+  name: OnBatchDelete
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_OnBatchDelete_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.OnBatchDelete
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.OnBatchDelete
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).OnBatchDelete
+  nameWithType: BaseGridViewBase<TItem, TKey>.OnBatchDelete
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).OnBatchDelete
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.RefreshToolbarItem
+  name: RefreshToolbarItem
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_RefreshToolbarItem
+  commentId: F:GoogleSearchScrape.Shared.BaseGridViewBase`2.RefreshToolbarItem
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.RefreshToolbarItem
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).RefreshToolbarItem
+  nameWithType: BaseGridViewBase<TItem, TKey>.RefreshToolbarItem
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).RefreshToolbarItem
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.SfGridRef
+  name: SfGridRef
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_SfGridRef
+  commentId: P:GoogleSearchScrape.Shared.BaseGridViewBase`2.SfGridRef
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.SfGridRef
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).SfGridRef
+  nameWithType: BaseGridViewBase<TItem, TKey>.SfGridRef
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).SfGridRef
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.SfGridRef*
+  name: SfGridRef
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_SfGridRef_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.SfGridRef
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.SfGridRef
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).SfGridRef
+  nameWithType: BaseGridViewBase<TItem, TKey>.SfGridRef
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).SfGridRef
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+  name: ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_ToolbarClickHandler_Syncfusion_Blazor_Navigations_ClickEventArgs_
+  commentId: M:GoogleSearchScrape.Shared.BaseGridViewBase`2.ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+  nameWithType: BaseGridViewBase<TItem, TKey>.ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs)
+- uid: GoogleSearchScrape.Shared.BaseGridViewBase`2.ToolbarClickHandler*
+  name: ToolbarClickHandler
+  href: api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html#GoogleSearchScrape_Shared_BaseGridViewBase_2_ToolbarClickHandler_
+  commentId: Overload:GoogleSearchScrape.Shared.BaseGridViewBase`2.ToolbarClickHandler
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.BaseGridViewBase<TItem, TKey>.ToolbarClickHandler
+  fullName.vb: GoogleSearchScrape.Shared.BaseGridViewBase(Of TItem, TKey).ToolbarClickHandler
+  nameWithType: BaseGridViewBase<TItem, TKey>.ToolbarClickHandler
+  nameWithType.vb: BaseGridViewBase(Of TItem, TKey).ToolbarClickHandler
+- uid: GoogleSearchScrape.Shared.MainLayoutBase
+  name: MainLayoutBase
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html
+  commentId: T:GoogleSearchScrape.Shared.MainLayoutBase
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase
+  nameWithType: MainLayoutBase
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.DisposeAsync
+  name: DisposeAsync()
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_DisposeAsync
+  commentId: M:GoogleSearchScrape.Shared.MainLayoutBase.DisposeAsync
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.DisposeAsync()
+  nameWithType: MainLayoutBase.DisposeAsync()
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.DisposeAsync*
+  name: DisposeAsync
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_DisposeAsync_
+  commentId: Overload:GoogleSearchScrape.Shared.MainLayoutBase.DisposeAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.DisposeAsync
+  nameWithType: MainLayoutBase.DisposeAsync
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.InstallClicked
+  name: InstallClicked()
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_InstallClicked
+  commentId: M:GoogleSearchScrape.Shared.MainLayoutBase.InstallClicked
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.InstallClicked()
+  nameWithType: MainLayoutBase.InstallClicked()
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.InstallClicked*
+  name: InstallClicked
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_InstallClicked_
+  commentId: Overload:GoogleSearchScrape.Shared.MainLayoutBase.InstallClicked
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.InstallClicked
+  nameWithType: MainLayoutBase.InstallClicked
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.OnAfterRenderAsync(System.Boolean)
+  name: OnAfterRenderAsync(Boolean)
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_OnAfterRenderAsync_System_Boolean_
+  commentId: M:GoogleSearchScrape.Shared.MainLayoutBase.OnAfterRenderAsync(System.Boolean)
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.OnAfterRenderAsync(System.Boolean)
+  nameWithType: MainLayoutBase.OnAfterRenderAsync(Boolean)
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.OnAfterRenderAsync*
+  name: OnAfterRenderAsync
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_OnAfterRenderAsync_
+  commentId: Overload:GoogleSearchScrape.Shared.MainLayoutBase.OnAfterRenderAsync
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.OnAfterRenderAsync
+  nameWithType: MainLayoutBase.OnAfterRenderAsync
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.SfToastObjRef
+  name: SfToastObjRef
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_SfToastObjRef
+  commentId: P:GoogleSearchScrape.Shared.MainLayoutBase.SfToastObjRef
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.SfToastObjRef
+  nameWithType: MainLayoutBase.SfToastObjRef
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.SfToastObjRef*
+  name: SfToastObjRef
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_SfToastObjRef_
+  commentId: Overload:GoogleSearchScrape.Shared.MainLayoutBase.SfToastObjRef
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.SfToastObjRef
+  nameWithType: MainLayoutBase.SfToastObjRef
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.ShowInstallPrompt
+  name: ShowInstallPrompt()
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_ShowInstallPrompt
+  commentId: M:GoogleSearchScrape.Shared.MainLayoutBase.ShowInstallPrompt
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.ShowInstallPrompt()
+  nameWithType: MainLayoutBase.ShowInstallPrompt()
+- uid: GoogleSearchScrape.Shared.MainLayoutBase.ShowInstallPrompt*
+  name: ShowInstallPrompt
+  href: api/GoogleSearchScrape.Shared.MainLayoutBase.html#GoogleSearchScrape_Shared_MainLayoutBase_ShowInstallPrompt_
+  commentId: Overload:GoogleSearchScrape.Shared.MainLayoutBase.ShowInstallPrompt
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.MainLayoutBase.ShowInstallPrompt
+  nameWithType: MainLayoutBase.ShowInstallPrompt
+- uid: GoogleSearchScrape.Shared.NavMenuBase
+  name: NavMenuBase
+  href: api/GoogleSearchScrape.Shared.NavMenuBase.html
+  commentId: T:GoogleSearchScrape.Shared.NavMenuBase
+  fullName: GoogleSearchScrape.Shared.NavMenuBase
+  nameWithType: NavMenuBase
+- uid: GoogleSearchScrape.Shared.NavMenuBase.NavMenuCssClass
+  name: NavMenuCssClass
+  href: api/GoogleSearchScrape.Shared.NavMenuBase.html#GoogleSearchScrape_Shared_NavMenuBase_NavMenuCssClass
+  commentId: P:GoogleSearchScrape.Shared.NavMenuBase.NavMenuCssClass
+  fullName: GoogleSearchScrape.Shared.NavMenuBase.NavMenuCssClass
+  nameWithType: NavMenuBase.NavMenuCssClass
+- uid: GoogleSearchScrape.Shared.NavMenuBase.NavMenuCssClass*
+  name: NavMenuCssClass
+  href: api/GoogleSearchScrape.Shared.NavMenuBase.html#GoogleSearchScrape_Shared_NavMenuBase_NavMenuCssClass_
+  commentId: Overload:GoogleSearchScrape.Shared.NavMenuBase.NavMenuCssClass
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.NavMenuBase.NavMenuCssClass
+  nameWithType: NavMenuBase.NavMenuCssClass
+- uid: GoogleSearchScrape.Shared.NavMenuBase.ToggleNavMenu
+  name: ToggleNavMenu()
+  href: api/GoogleSearchScrape.Shared.NavMenuBase.html#GoogleSearchScrape_Shared_NavMenuBase_ToggleNavMenu
+  commentId: M:GoogleSearchScrape.Shared.NavMenuBase.ToggleNavMenu
+  fullName: GoogleSearchScrape.Shared.NavMenuBase.ToggleNavMenu()
+  nameWithType: NavMenuBase.ToggleNavMenu()
+- uid: GoogleSearchScrape.Shared.NavMenuBase.ToggleNavMenu*
+  name: ToggleNavMenu
+  href: api/GoogleSearchScrape.Shared.NavMenuBase.html#GoogleSearchScrape_Shared_NavMenuBase_ToggleNavMenu_
+  commentId: Overload:GoogleSearchScrape.Shared.NavMenuBase.ToggleNavMenu
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Shared.NavMenuBase.ToggleNavMenu
+  nameWithType: NavMenuBase.ToggleNavMenu
+- uid: GoogleSearchScrape.Startup
+  name: Startup
+  href: api/GoogleSearchScrape.Startup.html
+  commentId: T:GoogleSearchScrape.Startup
+  fullName: GoogleSearchScrape.Startup
+  nameWithType: Startup
+- uid: GoogleSearchScrape.Startup.#ctor(IConfiguration)
+  name: Startup(IConfiguration)
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup__ctor_IConfiguration_
+  commentId: M:GoogleSearchScrape.Startup.#ctor(IConfiguration)
+  fullName: GoogleSearchScrape.Startup.Startup(IConfiguration)
+  nameWithType: Startup.Startup(IConfiguration)
+- uid: GoogleSearchScrape.Startup.#ctor*
+  name: Startup
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup__ctor_
+  commentId: Overload:GoogleSearchScrape.Startup.#ctor
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Startup.Startup
+  nameWithType: Startup.Startup
+- uid: GoogleSearchScrape.Startup.Config
+  name: Config
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup_Config
+  commentId: P:GoogleSearchScrape.Startup.Config
+  fullName: GoogleSearchScrape.Startup.Config
+  nameWithType: Startup.Config
+- uid: GoogleSearchScrape.Startup.Config*
+  name: Config
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup_Config_
+  commentId: Overload:GoogleSearchScrape.Startup.Config
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Startup.Config
+  nameWithType: Startup.Config
+- uid: GoogleSearchScrape.Startup.Configure(IApplicationBuilder,IWebHostEnvironment)
+  name: Configure(IApplicationBuilder, IWebHostEnvironment)
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup_Configure_IApplicationBuilder_IWebHostEnvironment_
+  commentId: M:GoogleSearchScrape.Startup.Configure(IApplicationBuilder,IWebHostEnvironment)
+  fullName: GoogleSearchScrape.Startup.Configure(IApplicationBuilder, IWebHostEnvironment)
+  nameWithType: Startup.Configure(IApplicationBuilder, IWebHostEnvironment)
+- uid: GoogleSearchScrape.Startup.Configure*
+  name: Configure
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup_Configure_
+  commentId: Overload:GoogleSearchScrape.Startup.Configure
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Startup.Configure
+  nameWithType: Startup.Configure
+- uid: GoogleSearchScrape.Startup.ConfigureServices(IServiceCollection)
+  name: ConfigureServices(IServiceCollection)
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup_ConfigureServices_IServiceCollection_
+  commentId: M:GoogleSearchScrape.Startup.ConfigureServices(IServiceCollection)
+  fullName: GoogleSearchScrape.Startup.ConfigureServices(IServiceCollection)
+  nameWithType: Startup.ConfigureServices(IServiceCollection)
+- uid: GoogleSearchScrape.Startup.ConfigureServices*
+  name: ConfigureServices
+  href: api/GoogleSearchScrape.Startup.html#GoogleSearchScrape_Startup_ConfigureServices_
+  commentId: Overload:GoogleSearchScrape.Startup.ConfigureServices
+  isSpec: "True"
+  fullName: GoogleSearchScrape.Startup.ConfigureServices
+  nameWithType: Startup.ConfigureServices
+- uid: NetScape.Modules.DAL
+  name: NetScape.Modules.DAL
+  href: api/NetScape.Modules.DAL.html
+  commentId: N:NetScape.Modules.DAL
+  fullName: NetScape.Modules.DAL
+  nameWithType: NetScape.Modules.DAL
+- uid: NetScape.Modules.DAL.DatabaseContext
+  name: DatabaseContext
+  href: api/NetScape.Modules.DAL.DatabaseContext.html
+  commentId: T:NetScape.Modules.DAL.DatabaseContext
+  fullName: NetScape.Modules.DAL.DatabaseContext
+  nameWithType: DatabaseContext
+- uid: NetScape.Modules.DAL.DatabaseContext.#ctor(DbContextOptions{NetScape.Modules.DAL.DatabaseContext},ILoggerFactory)
+  name: DatabaseContext(DbContextOptions<DatabaseContext>, ILoggerFactory)
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext__ctor_DbContextOptions_NetScape_Modules_DAL_DatabaseContext__ILoggerFactory_
+  commentId: M:NetScape.Modules.DAL.DatabaseContext.#ctor(DbContextOptions{NetScape.Modules.DAL.DatabaseContext},ILoggerFactory)
+  name.vb: DatabaseContext(DbContextOptions(Of DatabaseContext), ILoggerFactory)
+  fullName: NetScape.Modules.DAL.DatabaseContext.DatabaseContext(DbContextOptions<NetScape.Modules.DAL.DatabaseContext>, ILoggerFactory)
+  fullName.vb: NetScape.Modules.DAL.DatabaseContext.DatabaseContext(DbContextOptions(Of NetScape.Modules.DAL.DatabaseContext), ILoggerFactory)
+  nameWithType: DatabaseContext.DatabaseContext(DbContextOptions<DatabaseContext>, ILoggerFactory)
+  nameWithType.vb: DatabaseContext.DatabaseContext(DbContextOptions(Of DatabaseContext), ILoggerFactory)
+- uid: NetScape.Modules.DAL.DatabaseContext.#ctor*
+  name: DatabaseContext
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext__ctor_
+  commentId: Overload:NetScape.Modules.DAL.DatabaseContext.#ctor
+  isSpec: "True"
+  fullName: NetScape.Modules.DAL.DatabaseContext.DatabaseContext
+  nameWithType: DatabaseContext.DatabaseContext
+- uid: NetScape.Modules.DAL.DatabaseContext.OnModelCreating(ModelBuilder)
+  name: OnModelCreating(ModelBuilder)
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext_OnModelCreating_ModelBuilder_
+  commentId: M:NetScape.Modules.DAL.DatabaseContext.OnModelCreating(ModelBuilder)
+  fullName: NetScape.Modules.DAL.DatabaseContext.OnModelCreating(ModelBuilder)
+  nameWithType: DatabaseContext.OnModelCreating(ModelBuilder)
+- uid: NetScape.Modules.DAL.DatabaseContext.OnModelCreating*
+  name: OnModelCreating
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext_OnModelCreating_
+  commentId: Overload:NetScape.Modules.DAL.DatabaseContext.OnModelCreating
+  isSpec: "True"
+  fullName: NetScape.Modules.DAL.DatabaseContext.OnModelCreating
+  nameWithType: DatabaseContext.OnModelCreating
+- uid: NetScape.Modules.DAL.DatabaseContext.Requests
+  name: Requests
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext_Requests
+  commentId: P:NetScape.Modules.DAL.DatabaseContext.Requests
+  fullName: NetScape.Modules.DAL.DatabaseContext.Requests
+  nameWithType: DatabaseContext.Requests
+- uid: NetScape.Modules.DAL.DatabaseContext.Requests*
+  name: Requests
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext_Requests_
+  commentId: Overload:NetScape.Modules.DAL.DatabaseContext.Requests
+  isSpec: "True"
+  fullName: NetScape.Modules.DAL.DatabaseContext.Requests
+  nameWithType: DatabaseContext.Requests
+- uid: NetScape.Modules.DAL.DatabaseContext.Results
+  name: Results
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext_Results
+  commentId: P:NetScape.Modules.DAL.DatabaseContext.Results
+  fullName: NetScape.Modules.DAL.DatabaseContext.Results
+  nameWithType: DatabaseContext.Results
+- uid: NetScape.Modules.DAL.DatabaseContext.Results*
+  name: Results
+  href: api/NetScape.Modules.DAL.DatabaseContext.html#NetScape_Modules_DAL_DatabaseContext_Results_
+  commentId: Overload:NetScape.Modules.DAL.DatabaseContext.Results
+  isSpec: "True"
+  fullName: NetScape.Modules.DAL.DatabaseContext.Results
+  nameWithType: DatabaseContext.Results

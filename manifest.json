@@ -1,0 +1,680 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.IDao-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.IDao-1.html",
+          "hash": "agczRyB0BhoTRhtIxy4ZPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeHandler-1.html",
+          "hash": "kBa86FgHEwepCBlHdVsypw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.IScrapeRequestStrategy.html",
+          "hash": "GfU6IGFjLrJyVvTZGDlR/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Interfaces.html",
+          "hash": "m1kPU6mlwoDh/FmOT9wcTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Model.ScrapeRequest.html",
+          "hash": "vkE9fKrN6j3AWA2O8O0AoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Model.ScrapeResult.html",
+          "hash": "hqSmmys3UdogrJKS+EBS0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Model.TimedScrapeRequest.html",
+          "hash": "4Ua28SvGzKblrsavBwO8tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Abstractions.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Abstractions.Model.html",
+          "hash": "EtmAEdwl0Y/I5twPIJev1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.DAL.DALModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.DAL.DALModule.html",
+          "hash": "fXU0RuLzUZp0sSJGt6Dt6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.DAL.DataAdapter.BaseDataAdapter-2.html",
+          "hash": "G0rKTCP2y7jIHGYbZF0tXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.DAL.DataAdapter.ScrapeResultDataAdapter.html",
+          "hash": "jUDJ9RwR9l7GlkSvtSyQBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.DAL.DataAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.DAL.DataAdapter.html",
+          "hash": "Jq9CFWrHa5quneUV8kDIwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.DAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.DAL.html",
+          "hash": "MVrcLdCGKoDtP7fPE1bsAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Migrations.AddInitial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Migrations.AddInitial.html",
+          "hash": "WWxms2DI96dC+eXqVVYRSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Migrations.html",
+          "hash": "c4grL7UnbTF6LQKTwRrpYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Pages.ChartData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Pages.ChartData.html",
+          "hash": "ETRqvXopKGSecDVO+nNFDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Pages.IndexBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Pages.IndexBase.html",
+          "hash": "PTGwNPXehH/sdWoJyxgQVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Pages.ScrapeRequestsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Pages.ScrapeRequestsBase.html",
+          "hash": "JgbsWHPK58hiRAjPSOfGsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Pages.html",
+          "hash": "iqfvh7nyWDOL1e7+Wwxz3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Program.html",
+          "hash": "bEsjg2gegw7W83UGnXaVbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Extensions.ScraperExtensions.html",
+          "hash": "ZiIuey7waIOMYyKKFal06g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Extensions.html",
+          "hash": "go2Jz1twAgsUMtAmxW20mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Handlers.ScrapeRequestHandler.html",
+          "hash": "zta2HACaPAF1nkoRA5ddJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Handlers.TimedScrapeRequestHandler.html",
+          "hash": "wsKlluHq84ucRWoSWcP8cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Handlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Handlers.html",
+          "hash": "MOtkzPJK063S/R4reRLDIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.ScraperModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.ScraperModule.html",
+          "hash": "szgrkyYfm4LU2LEtFMDufQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Services.ScraperService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Services.ScraperService.html",
+          "hash": "eStsZcduSZaupHpIeMszNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Services.html",
+          "hash": "xZeAokeHUyBLFJmAVIq1hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.BingSearchScraperStrategy.html",
+          "hash": "P+KHlfDctNXPYyd8++lGTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.GoogleSearchScraperStrategy.html",
+          "hash": "I71c6yMB2kOYuNxVIExJhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.HttpScraperStrategy.html",
+          "hash": "tqcbH1DvDY+96cVRDsJt0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.Test.GoogleSearchScraperStrategyTests.html",
+          "hash": "kxE3Gtww+ukrGpWF+jNPHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.Test.html",
+          "hash": "SehR5q5Dr8dFG71CKDArhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Strategies.html",
+          "hash": "g8H572i//bvOFLkY0BoRTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Test.Extensions.ScraperExtensionsTests.html",
+          "hash": "jrFICORAkRJnPwR4rm8keg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Test.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Test.Extensions.html",
+          "hash": "ykiZaT1wT4iiLFKVxIvV+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Test.Handlers.ScrapeRequestHandlerTests.html",
+          "hash": "9rVT9xxUaLOJ0tE+fvba7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Test.Handlers.TimedScrapeRequestHandlerTests.html",
+          "hash": "xMncuVck8P5BSiENmsBZbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.Test.Handlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.Test.Handlers.html",
+          "hash": "dFFN6ddTr7h7NNJCnfkFBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Scrapers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Scrapers.html",
+          "hash": "vYmrOPkkIrQruLwtQFAHPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Shared.BaseGridView-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Shared.BaseGridView-2.html",
+          "hash": "/j2VSx4K36U6XO1i/eY17w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Shared.BaseGridViewBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Shared.BaseGridViewBase-2.html",
+          "hash": "mbtTRTP43v2tlXvam4RLsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Shared.MainLayoutBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Shared.MainLayoutBase.html",
+          "hash": "Mp3i6roixMpHfmGD82/FUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Shared.NavMenuBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Shared.NavMenuBase.html",
+          "hash": "ExhIccgnLhuyo9qQu7nibg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Shared.html",
+          "hash": "rjB0SWQ1mIX0wOqcF1H9wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.Startup.html",
+          "hash": "LTbnOvuStTqsMEDEYvA/Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GoogleSearchScrape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GoogleSearchScrape.html",
+          "hash": "7mABW8wiAOTJbKKryn9fsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetScape.Modules.DAL.DatabaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetScape.Modules.DAL.DatabaseContext.html",
+          "hash": "7KJCg8sS4iQ5LxZUXFItkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NetScape.Modules.DAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NetScape.Modules.DAL.html",
+          "hash": "tv4X5XCZ7G2Q4lw4iv6RTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "pHoB39TptWoC/JFhwd4l2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "PK9XakIW0qcFdFJWwHlrjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "EnGOGN4k+Z0GSFo+hfUx4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 49,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
